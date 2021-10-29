@@ -1,0 +1,24 @@
+,REPORTED,REGION,FIRE,DISTRICT,CAUSE,LATITUDE,LONGITUDE,STATUS,HECTARES (estimated)
+0,2020-Jul-20,North,9,Norway House,Lightning,53°54'34'',97°55'55'',Under Control,4
+1,2020-Jul-20,North,10,Norway House,Lightning,53°59'22'',97°25'26'',Under Control,50
+2,2020-Jul-21,North,11,Gillam,Lightning,56°04'35'',96°10'16'',Under Control,0.5
+3,2020-Jul-21,North,13,Gillam,Lightning,56°47'13'',93°53'42'',Being Watched,2
+4,2020-Jul-21,North,14,Gillam,Lightning,56°46'42'',93°47'06'',Being Watched,25
+5,2020-Jul-21,North,15,Gillam,Lightning,56°31'22'',93°09'31'',No Action,14
+6,2020-Jul-21,North,16,Gillam,Lightning,56°23'44'',93°06'59'',No Action,0.7
+7,2020-Jul-21,North,17,Gillam,Lightning,55°50'54'',92°47'11'',No Action,2
+8,2020-Jul-21,North,18,Thompson,Lightning,55°36'31'',97°15'41'',Under Control,0.1
+9,2020-Jul-22,North,19,Island Lake,Lightning,54°45'37'',93°22'47'',No Action,5
+10,2020-Jul-22,North,20,Gillam,Lightning,56°22'33'',94°08'50'',No Action,11
+11,2020-Jul-22,North,21,Lynn Lake,Lightning,57°12'34'',98°08'50'',No Action,280
+12,2020-Jul-22,North,22,Gillam,Lightning,57°11'54'',93°28'18'',Being Watched,212
+13,2020-Jul-22,North,23,Gillam,Lightning,57°15'53'',93°28'50'',Being Watched,302
+14,2020-Jul-22,North,24,Gillam,Lightning,57°14'37'',93°19'18'',Being Watched,39
+15,2020-Jul-22,North,25,Gillam,Lightning,57°07'43'',93°10'32'',Being Watched,34
+16,2020-Jul-22,North,26,Gillam,Lightning,57°11'27'',94°27'50'',No Action,75
+17,2020-Jul-23,North,27,Gillam,Lightning,57°26'13'',96°10'34'',Being Watched,2000
+18,2020-Jul-23,North,28,Gillam,Lightning,57°26'54'',96°16'00'',Being Watched,30
+19,2020-Jul-23,North,29,Gillam,Lightning,57°36'00'',96°38'47'',Being Watched,280
+20,2020-Jul-23,North,30,Gillam,Lightning,57°09'29'',97°41'36'',Being Watched,100
+21,2020-Jul-23,North,31,Gillam,Lightning,57°13'12'',97°20'46'',Being Watched,200
+22,2020-Jul-23,North,32,Gillam,Lightning,57°18'25'',97°16'23'',Being Watched,200

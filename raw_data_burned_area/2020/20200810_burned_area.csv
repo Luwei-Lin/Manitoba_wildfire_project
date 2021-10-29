@@ -1,0 +1,9 @@
+,REPORTED,REGION,FIRE,DISTRICT,CAUSE,LATITUDE,LONGITUDE,STATUS,HECTARES (estimated)
+0,2020-Aug-08,East,67,Lac du Bonnet,Lightning,50°40'23'',95°34'10'',Under Control,0.1
+1,2020-Aug-08,East,68,Lac du Bonnet,Lightning,50°39'05'',95°33'15'',Under Control,0.1
+2,2020-Aug-08,East,69,Bissett,Human,51°40'09'',96°38'30'',Under Control,0.3
+3,2020-Aug-09,East,70,Lac du Bonnet,Lightning,50°40'11'',95°10'44'',Under Control,0.5
+4,2020-Aug-03,North,34,Lynn Lake,Lightning,57°25'54'',100°31'48'',Being Watched,62
+5,2020-Aug-07,North,39,Gillam,Lightning,56°31'56'',94°18'37'',Under Control,5
+6,2020-Aug-08,North,40,Gillam,Lightning,56°46'16'',95°00'31'',Being Watched,10
+7,2020-Aug-08,North,41,Island Lake,Human,54°01'26'',95°14'28'',Under Control,0.8

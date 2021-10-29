@@ -1,0 +1,11 @@
+,REPORTED,REGION,FIRE,DISTRICT,CAUSE,LATITUDE,LONGITUDE,STATUS,HECTARES (estimated)
+0,2020-Aug-05,East,66,Lac du Bonnet,Lightning,49°42'38'',95°33'32'',Under Control,3
+1,2020-Jul-22,North,21,Lynn Lake,Lightning,57°12'34'',98°08'50'',No Action,280
+2,2020-Jul-23,North,30,Lynn Lake,Lightning,57°09'29'',97°41'36'',No Action,100
+3,2020-Jul-23,North,31,Lynn Lake,Lightning,57°13'12'',97°20'46'',No Action,200
+4,2020-Jul-23,North,32,Lynn Lake,Lightning,57°18'25'',97°16'23'',No Action,200
+5,2020-Aug-03,North,33,Norway House,Human,54°30'42'',97°52'27'',Extinguished,2
+6,2020-Aug-03,North,34,Lynn Lake,Lightning,57°25'54'',100°31'48'',Being Watched,62
+7,2020-Aug-06,North,35,Gillam,Lightning,56°47'13'',94°50'52'',No Action,1
+8,2020-Aug-06,North,36,Gillam,Lightning,55°53'19'',92°45'06'',No Action,1.5
+9,2020-Aug-06,North,37,Gillam,Lightning,56°47'40'',95°01'07'',No Action,1

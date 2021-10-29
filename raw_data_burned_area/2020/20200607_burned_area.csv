@@ -1,0 +1,7 @@
+,REPORTED,REGION,FIRE,DISTRICT,CAUSE,LATITUDE,LONGITUDE,STATUS,HECTARES (estimated)
+0,2020-May-31,East,35,Lac du Bonnet,Lightning,50°47'54'',95°46'09'',Out Of Control,9100
+1,2020-Jun-01,East,36,Interlake,Human,51°23'12'',96°57'16'',Under Control,479
+2,2020-Jun-04,East,38,Lac du Bonnet,Lightning,50°44'38'',95°46'50'',Under Control,0.2
+3,2020-Jun-04,East,39,Lac du Bonnet,Lightning,50°44'20'',95°47'25'',Under Control,1
+4,2020-Jun-04,East,42,Bissett,Lightning,51°30'39'',96°28'29'',Under Control,8
+5,2020-May-17,West,4,Swan River,Human,52°05'09'',100°10'47'',Under Control,26000

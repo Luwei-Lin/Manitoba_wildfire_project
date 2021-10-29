@@ -151,7 +151,12 @@ def listDate(year)->list:
     return dateList
 
 
-def main():
+def meteorologicalCSV():
+    """
+    Input: n/a
+    Function: convert meteorological data HTML table to .csv table and save.
+    Output: n/a
+    """
     years = [2017, 2018, 2019, 2020, 2021]
     for year in years:
         yyyy = str(year)
@@ -170,11 +175,76 @@ def main():
                     convertVersion2(URL, year, date)
                 except:
                     continue
-        
+def convertVersion3(URL, year, date):
+    """
+    Input: n/a
+    Function: Convert HTML table to .csv (burned area)
+    Output: n/a
+    """
+    try:
+        r = requests.get(URL)
+    except Exception as urlError:
+        pass
+    data = []
+    list_header = []
+    header = []
+    
+    soup = BeautifulSoup(r.content, "html.parser")
+    header = soup.find_all("table")[0].find_all("th")
+
+    if len(header) == 0:
+        return 
+
+    for items in header:
+        try:
+            list_header.append(items.get_text())
+        except Exception:
+            print("parse title error")
+
+    HTML_data = soup.find_all("table")[0].find_all("tr")[1:]
+    if len(HTML_data) == 0:
+        return
+
+    for element in HTML_data:
+        sub_data = []
+        for sub_element in element:
+            try:
+                validString = sub_element.get_text()
+                if validString != '\n':
+                    sub_data.append(sub_element.get_text())
+            except:
+                continue
+        data.append(sub_data)
+    
+    dataFrame = pd.DataFrame(data = data, columns = list_header)
+    
+    csvName = date + '_burned_area.csv'
+    filePath = "raw_data_burned_area/" + str(year) + '/' + csvName
+    dataFrame.to_csv(path_or_buf=filePath)
+
+def burnedAreaCSV():
+    years = [2017, 2018, 2019, 2020, 2021]
+    for year in years:
+        yyyy = str(year)
+        dates = listDate(year)
+        if year != 2021:
+            for date in dates:
+                URL = "https://www.gov.mb.ca/conservation_fire/Fire-Status/" + yyyy + '/' + date + "-firestatus.html"
+                try:
+                    convertVersion3(URL, year, date)
+                except:
+                    continue
+        else:
+            URL = "https://www.gov.mb.ca/conservation_fire/Fire-Status/2021/20211027-firestatus.html"
+            convertVersion3(URL, year, "20211027")
+
+def main():
+    meteorologicalCSV()     
+    burnedAreaCSV()
 
 def test():
-    URL = "https://www.gov.mb.ca/conservation_fire/Wx-Report/2018/20180501-obs-wxrep.html"
-    convertVersion2(URL, 2018, "20180501")
+    URL = "https://www.gov.mb.ca/conservation_fire/Fire-Status/2017/20171001-firestatus.html"
+    convertVersion3(URL, 2017, "20171001")
 
-main()
-#test()
+#main()
+test()

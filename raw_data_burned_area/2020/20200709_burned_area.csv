@@ -1,0 +1,7 @@
+,REPORTED,REGION,FIRE,DISTRICT,CAUSE,LATITUDE,LONGITUDE,STATUS,HECTARES (estimated)
+0,2020-Jul-03,East,55,Lac du Bonnet,Lightning,50°50'01'',95°50'40'',Under Control,2.4
+1,2020-Jul-03,East,56,Bissett,Lightning,53°07'19'',97°20'22'',Under Control,3
+2,2020-Jul-07,East,57,Bissett,Lightning,51°45'57'',96°03'06'',Under Control,1
+3,2020-Jul-08,East,58,Lac du Bonnet,Human,50°23'52'',96°32'09'',Under Control,0.4
+4,2020-Jul-08,East,59,Lac du Bonnet,Human,49°49'53'',95°17'44'',Under Control,0.1
+5,2020-Jul-07,North,8,Island Lake,Lightning,53°04'21'',94°47'17'',No Action,60

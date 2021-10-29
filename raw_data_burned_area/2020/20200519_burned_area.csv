@@ -1,0 +1,14 @@
+,REPORTED,REGION,FIRE,DISTRICT,CAUSE,LATITUDE,LONGITUDE,STATUS,HECTARES (estimated)
+0,2020-May-12,East,14,Interlake,Human,51°57'01'',99°32'11'',Under Control,61.4
+1,2020-May-16,East,17,Interlake,Human,51°52'55'',99°33'38'',Under Control,205
+2,2020-May-17,East,20,Interlake,Human,51°18'42'',98°53'22'',No Action,27.9
+3,2020-May-18,East,21,Interlake,Human,51°54'37'',98°18'52'',Being Held,264.4
+4,2020-May-18,East,22,Interlake,Human,51°59'25'',98°17'38'',Being Held,32
+5,2020-May-18,East,23,Lac du Bonnet,Human,50°33'29'',96°34'22'',Under Control,0.4
+6,2020-May-18,East,24,Interlake,Human,51°45'19'',98°23'35'',Under Control,1
+7,2020-May-18,East,25,Interlake,Human,51°22'49'',97°33'32'',Being Held,347
+8,2020-May-17,North,1,Island Lake,Human,53°51'04'',94°37'11'',Under Control,4
+9,2020-May-17,West,4,Swan River,Human,52°05'09'',100°10'47'',Out Of Control,2000
+10,2020-May-17,West,5,Grand Rapids,Human,53°08'27'',99°17'12'',Under Control,0.1
+11,2020-May-17,West,6,Grand Rapids,Human,53°08'32'',99°16'58'',Under Control,0.3
+12,2020-May-18,West,7,Swan River,Human,52°25'35'',101°06'50'',Being Held,2.7

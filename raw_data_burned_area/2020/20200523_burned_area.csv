@@ -1,0 +1,12 @@
+,REPORTED,REGION,FIRE,DISTRICT,CAUSE,LATITUDE,LONGITUDE,STATUS,HECTARES (estimated)
+0,2020-May-12,East,14,Interlake,Human,51°57'01'',99°32'11'',Under Control,61.4
+1,2020-May-18,East,21,Interlake,Human,51°54'37'',98°18'52'',Under Control,264.4
+2,2020-May-18,East,22,Interlake,Human,51°59'25'',98°17'38'',Under Control,32
+3,2020-May-18,East,25,Interlake,Human,51°22'49'',97°33'32'',Under Control,140
+4,2020-May-19,East,26,Interlake,Human,51°18'20'',97°44'32'',Under Control,8.8
+5,2020-May-19,East,27,Marchand,Human,49°23'55'',96°06'39'',Under Control,242
+6,2020-May-22,East,29,Lac du Bonnet,Human,13°25'26'',98°42'17'',Under Control,1.4
+7,2020-May-17,North,1,Island Lake,Human,53°51'04'',94°37'11'',Extinguished,4
+8,2020-May-17,West,4,Swan River,Human,52°05'09'',100°10'47'',Out Of Control,23000
+9,2020-May-22,West,8,Swan River,Human,51°53'25'',100°28'53'',Out Of Control,2400
+10,2020-May-22,West,9,Swan River,Human,51°46'12'',100°28'09'',Out Of Control,2400

@@ -1,0 +1,8 @@
+,REPORTED,REGION,FIRE,DISTRICT,CAUSE,LATITUDE,LONGITUDE,STATUS,HECTARES (estimated)
+0,2020-May-31,East,35,Lac du Bonnet,Lightning,50°47'54'',95°46'09'',Out Of Control,10315
+1,2020-Jun-01,East,36,Interlake,Human,51°23'12'',96°57'16'',Under Control,479
+2,2020-Jun-14,East,47,Marchand,Human,49°24'18'',96°13'31'',Under Control,17
+3,2020-Jun-15,East,48,Interlake,Human,51°46'10'',98°32'33'',Under Control,6.5
+4,2020-Jun-15,East,49,Interlake,Human,51°46'11'',98°32'32'',Under Control,1.4
+5,2020-Jun-16,North,3,Island Lake,Human,54°55'40'',95°16'05'',Under Control,2
+6,2020-Jun-16,North,4,Gillam,Lightning,56°32'39'',93°37'03'',No Action,10

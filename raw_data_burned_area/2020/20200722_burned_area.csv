@@ -1,0 +1,11 @@
+,REPORTED,REGION,FIRE,DISTRICT,CAUSE,LATITUDE,LONGITUDE,STATUS,HECTARES (estimated)
+0,2020-Jul-20,North,9,Norway House,Lightning,53°54'34'',97°55'55'',Under Control,4
+1,2020-Jul-20,North,10,Norway House,Lightning,53°59'22'',97°25'26'',Out Of Control,50
+2,2020-Jul-21,North,11,Gillam,Lightning,56°04'35'',96°10'16'',Under Control,0.5
+3,2020-Jul-21,North,12,Lynn Lake,Lightning,56°39'27'',99°57'23'',Under Control,1.8
+4,2020-Jul-21,North,13,Gillam,Lightning,56°47'13'',93°53'42'',Being Watched,2
+5,2020-Jul-21,North,14,Gillam,Lightning,56°46'42'',93°47'06'',Being Watched,25
+6,2020-Jul-21,North,15,Gillam,Lightning,56°31'22'',93°09'31'',No Action,14
+7,2020-Jul-21,North,16,Gillam,Lightning,56°23'44'',93°06'59'',No Action,0.7
+8,2020-Jul-21,North,17,Gillam,Lightning,55°50'54'',92°47'11'',No Action,2
+9,2020-Jul-21,North,18,Thompson,Lightning,55°36'31'',97°15'41'',Under Control,0.1

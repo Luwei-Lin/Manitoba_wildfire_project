@@ -1,0 +1,14 @@
+,REPORTED,REGION,FIRE,DISTRICT,CAUSE,LATITUDE,LONGITUDE,STATUS,HECTARES (estimated)
+0,2020-May-31,East,34,Marchand,Human,49°24'18'',96°13'50'',Under Control,200
+1,2020-May-31,East,35,Lac du Bonnet,Lightning,50°47'54'',95°46'09'',Out Of Control,9100
+2,2020-Jun-01,East,36,Interlake,Human,51°23'12'',96°57'16'',Being Held,479
+3,2020-Jun-03,East,37,Bissett,Lightning,51°09'02'',96°04'25'',Under Control,0.2
+4,2020-Jun-04,East,38,Lac du Bonnet,Lightning,50°44'38'',95°46'50'',Under Control,0.2
+5,2020-Jun-04,East,39,Lac du Bonnet,Lightning,50°44'20'',95°47'25'',Under Control,1
+6,2020-Jun-04,East,40,Lac du Bonnet,Lightning,50°44'54'',95°53'20'',Under Control,0.2
+7,2020-Jun-04,East,42,Bissett,Lightning,51°30'39'',96°28'29'',Being Held,8
+8,2020-Jun-04,East,45,Lac du Bonnet,Lightning,50°46'57'',95°49'45'',Under Control,0.2
+9,2020-May-17,West,4,Swan River,Human,52°05'09'',100°10'47'',Under Control,26000
+10,2020-May-31,West,11,Swan River,Human,51°48'53'',100°18'43'',Under Control,1000
+11,2020-May-31,West,12,Swan River,Human,52°45'22'',101°06'49'',Under Control,60
+12,2020-Jun-03,West,14,Swan River,Lightning,51°30'44'',100°36'46'',Under Control,3

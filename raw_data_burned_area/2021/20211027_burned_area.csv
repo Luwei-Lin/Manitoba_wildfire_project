@@ -1,0 +1,461 @@
+,REPORTED,REGION,FIRE,DISTRICT,CAUSE,LATITUDE,LONGITUDE,STATUS,HECTARES (estimated)
+0,2021-Mar-22,East,1,Lac du Bonnet,Human,50°32'19'',95°24'41'',Out,4.6
+1,2021-Mar-29,East,2,Marchand,Human,49°36'30'',96°21'20'',Out,200
+2,2021-Mar-29,East,3,Lac du Bonnet,Human,50°48'57'',96°14'21'',Out,5
+3,2021-Apr-05,East,4,Interlake,Human,51°52'38'',98°20'14'',Out,215.4
+4,2021-Apr-05,East,5,Interlake,Human,51°51'01'',98°21'24'',Out,243.6
+5,2021-Apr-05,East,6,Interlake,Human,51°50'08'',98°22'11'',Out,924.3
+6,2021-Apr-05,East,7,Interlake,Human,51°46'59'',99°13'38'',Out,425.3
+7,2021-Apr-06,East,8,Interlake,Human,51°43'51'',98°35'41'',Out,326.3
+8,2021-Apr-07,East,9,Marchand,Human,49°20'08'',96°19'10'',Out,1
+9,2021-Apr-07,East,10,Interlake,Human,51°42'40'',98°38'28'',Out,0.1
+10,2021-Apr-07,East,11,Interlake,Human,51°46'23'',98°22'53'',Out,800.9
+11,2021-Apr-08,East,12,Interlake,Human,51°44'14'',99°04'58'',Out,505.9
+12,2021-Apr-10,East,13,Interlake,Human,51°13'31'',97°34'39'',Out,8
+13,2021-Apr-10,East,14,Interlake,Human,51°20'07'',97°32'05'',Out,296
+14,2021-Apr-22,East,15,Interlake,Human,50°57'16'',97°45'02'',Out,255
+15,2021-Apr-23,East,16,Interlake,Human,51°42'41'',98°59'18'',Out,50
+16,2021-Apr-23,East,17,Interlake,Human,51°44'15'',98°35'21'',Out,20
+17,2021-Apr-28,East,18,Lac du Bonnet,Human,49°51'13'',95°52'23'',Out,0.1
+18,2021-Apr-29,East,19,Interlake,Human,51°44'42'',98°26'56'',Out,671.9
+19,2021-Apr-30,East,20,Lac du Bonnet,Human,49°50'47'',95°24'43'',Out,1.5
+20,2021-Apr-30,East,21,Lac du Bonnet,Human,51°04'57'',96°17'30'',Out,4
+21,2021-Apr-30,East,22,Bissett,Human,51°09'36'',96°17'32'',Out,2.3
+22,2021-Apr-30,East,23,Interlake,Human,51°35'17'',98°44'15'',Out,25.3
+23,2021-May-01,East,24,Interlake,Human,51°35'54'',98°40'56'',Out,54.8
+24,2021-May-01,East,25,Interlake,Human,51°37'52'',98°35'20'',Out,1012.5
+25,2021-May-03,East,26,Interlake,Human,51°45'25'',98°34'12'',Out,2.7
+26,2021-May-06,East,27,Lac du Bonnet,Human,50°35'23'',96°14'28'',Out,26
+27,2021-May-06,East,28,Bissett,Human,52°21'13'',97°01'25'',Out,0.1
+28,2021-May-07,East,29,Lac du Bonnet,Human,50°31'42'',95°27'12'',Out,0.6
+29,2021-May-08,East,30,Interlake,Human,51°42'42'',98°39'54'',Out,65.3
+30,2021-May-08,East,31,Marchand,Human,49°26'33'',96°16'08'',Out,0.8
+31,2021-May-08,East,32,Lac du Bonnet,Human,50°34'60'',96°18'00'',Out,10
+32,2021-May-08,East,33,Marchand,Human,49°21'32'',96°11'53'',Out,1979
+33,2021-May-08,East,34,Interlake,Human,51°13'50'',97°34'33'',Out,1
+34,2021-May-09,East,35,Interlake,Human,51°49'07'',99°20'54'',Out,35.9
+35,2021-May-10,East,36,Interlake,Human,51°42'49'',98°41'17'',Out,0.3
+36,2021-May-10,East,37,Interlake,Human,51°40'21'',98°35'31'',Out,95.6
+37,2021-May-10,East,38,Interlake,Human,51°45'19'',99°48'20'',Out,46.9
+38,2021-May-10,East,39,Interlake,Human,51°55'17'',99°34'18'',Out,10.9
+39,2021-May-11,East,40,Interlake,Human,51°52'07'',97°18'12'',Out,3.3
+40,2021-May-11,East,41,Interlake,Human,51°48'30'',98°22'53'',Out,181.1
+41,2021-May-12,East,42,Interlake,Human,51°46'12'',98°24'13'',Out,1074.1
+42,2021-May-12,East,43,Lac du Bonnet,Human,49°43'16'',95°14'45'',Out,50
+43,2021-May-12,East,44,Interlake,Human,51°44'26'',99°05'48'',Out,206017
+44,2021-May-12,East,45,Interlake,Human,51°19'57'',97°31'55'',Out,13
+45,2021-May-12,East,46,Bissett,Human,51°47'31'',96°41'52'',Out,1.6
+46,2021-May-13,East,47,Interlake,Human,51°54'26'',99°38'49'',Out,22702
+47,2021-May-14,East,48,Lac du Bonnet,Natural,49°53'03'',95°28'15'',Out,0.1
+48,2021-May-14,East,49,Lac du Bonnet,Human,50°38'33'',96°13'26'',Out,2.5
+49,2021-May-14,East,50,Lac du Bonnet,Natural,49°58'31'',95°41'17'',Out,0.1
+50,2021-May-14,East,51,Interlake,Human,51°11'06'',98°03'29'',Out,43
+51,2021-May-15,East,52,Interlake,Human,51°42'40'',98°39'04'',Out,0.2
+52,2021-May-16,East,53,Interlake,Human,51°55'19'',97°18'25'',Out,0.8
+53,2021-May-16,East,54,Bissett,Natural,51°36'52'',96°14'52'',Out,1.4
+54,2021-May-16,East,55,Interlake,Under Investigation,50°15'36'',96°47'35'',Out,1300
+55,2021-May-17,East,56,Lac du Bonnet,Human,49°57'52'',95°56'25'',Out,7400
+56,2021-May-17,East,57,Lac du Bonnet,Human,49°58'38'',96°04'13'',Out,2
+57,2021-May-18,East,58,Interlake,Human,51°43'07'',98°36'58'',Out,0.5
+58,2021-May-18,East,59,Lac du Bonnet,Human,49°53'02'',95°20'08'',Out,1600
+59,2021-May-18,East,60,Interlake,Human,51°20'14'',97°32'25'',Out,4.5
+60,2021-May-18,East,61,Interlake,Human,51°11'03'',98°04'19'',Out,0.3
+61,2021-May-19,East,62,Interlake,Human,51°10'52'',96°38'12'',Out,0.3
+62,2021-May-19,East,63,Interlake,Human,51°43'04'',99°10'56'',Out,40
+63,2021-May-23,East,64,Interlake,Human,51°24'08'',97°29'07'',Out,0.1
+64,2021-May-24,East,65,Interlake,Human,51°16'26'',97°30'24'',Out,269
+65,2021-May-28,East,66,Lac du Bonnet,Human,50°19'15'',95°35'55'',Out,0.1
+66,2021-May-29,East,67,Interlake,Human,51°19'32'',97°37'09'',Out,5.8
+67,2021-Jun-02,East,68,Marchand,Human,49°25'28'',96°21'30'',Out,0.3
+68,2021-Jun-04,East,69,Bissett,Natural,51°09'06'',95°48'25'',Out,0.1
+69,2021-Jun-04,East,70,Bissett,Natural,51°10'05'',95°51'54'',Out,0.1
+70,2021-Jun-04,East,71,Bissett,Natural,51°59'43'',95°36'35'',Out,45
+71,2021-Jun-04,East,72,Bissett,Natural,51°54'25'',95°24'49'',Out,1.7
+72,2021-Jun-04,East,73,Bissett,Natural,52°00'00'',95°43'00'',Out,0.1
+73,2021-Jun-04,East,74,Bissett,Natural,51°11'33'',95°53'04'',Out,0.1
+74,2021-Jun-04,East,75,Bissett,Natural,51°56'57'',95°31'26'',Out,0.1
+75,2021-Jun-04,East,76,Bissett,Natural,51°05'48'',95°17'50'',Out,2
+76,2021-Jun-05,East,77,Bissett,Natural,51°02'02'',95°18'18'',Out,1
+77,2021-Jun-05,East,78,Bissett,Human,52°00'20'',95°28'26'',Out,0.1
+78,2021-Jun-07,East,79,Bissett,Natural,52°09'52'',96°08'53'',Out,1.1
+79,2021-Jun-07,East,80,Marchand,Human,49°01'25'',95°46'31'',Out,1.3
+80,2021-Jun-08,East,81,Lac du Bonnet,Natural,50°37'46'',95°34'50'',Out,2
+81,2021-Jun-08,East,82,Lac du Bonnet,Natural,50°38'42'',95°25'35'',Out,0.3
+82,2021-Jun-08,East,83,Lac du Bonnet,Natural,50°30'08'',95°45'48'',Out,0.3
+83,2021-Jun-08,East,84,Lac du Bonnet,Natural,50°29'22'',95°22'48'',Out,0.5
+84,2021-Jun-08,East,85,Lac du Bonnet,Natural,50°37'45'',95°34'29'',Out,0.2
+85,2021-Jun-09,East,86,Bissett,Natural,52°32'55'',96°11'56'',Out,2.8
+86,2021-Jun-17,East,87,Lac du Bonnet,Natural,50°49'14'',95°54'39'',Out,0.1
+87,2021-Jun-27,East,88,Bissett,Natural,52°27'07'',96°39'04'',Out,69
+88,2021-Jun-27,East,89,Bissett,Natural,51°35'35'',95°54'49'',Out,1
+89,2021-Jun-27,East,90,Bissett,Natural,52°44'21'',96°46'16'',Out,75
+90,2021-Jun-27,East,91,Bissett,Natural,52°43'08'',96°43'42'',Out,9750
+91,2021-Jun-27,East,92,Bissett,Natural,52°46'06'',96°46'42'',Out,45
+92,2021-Jun-27,East,93,Bissett,Natural,52°04'26'',96°26'11'',Out,200
+93,2021-Jun-27,East,94,Bissett,Natural,51°40'11'',96°17'20'',Out,26.1
+94,2021-Jun-27,East,95,Bissett,Natural,51°37'32'',96°17'07'',Out,0.1
+95,2021-Jun-28,East,96,Bissett,Natural,52°26'15'',96°12'34'',Out,369600
+96,2021-Jun-29,East,97,Bissett,Human,51°46'17'',96°40'60'',Out,0.4
+97,2021-Jun-30,East,98,Interlake,Human,51°53'25'',97°17'54'',Out,0.3
+98,2021-Jun-30,East,99,Bissett,Natural,52°29'47'',96°23'24'',Out,0.2
+99,2021-Jun-30,East,100,Bissett,Natural,52°16'23'',95°27'47'',Out,0.1
+100,2021-Jun-30,East,101,Bissett,Natural,52°49'17'',95°32'22'',Out,43090
+101,2021-Jun-30,East,102,Bissett,Natural,52°45'51'',95°29'17'',Out,1200
+102,2021-Jul-02,East,103,Bissett,Human,52°22'23'',97°03'49'',Out,0.3
+103,2021-Jul-02,East,104,Marchand,Human,49°37'59'',95°34'05'',Out,0.1
+104,2021-Jul-03,East,105,Lac du Bonnet,Under Investigation,50°31'27'',95°24'58'',Out,80
+105,2021-Jul-03,East,106,Interlake,Human,51°48'56'',98°44'53'',Out,3
+106,2021-Jul-04,East,107,Lac du Bonnet,Human,49°50'03'',95°20'59'',Out,0.2
+107,2021-Jul-04,East,108,Bissett,Human,51°49'44'',96°40'44'',Out,0.1
+108,2021-Jul-06,East,109,Bissett,Natural,51°36'30'',95°10'39'',Out,0.4
+109,2021-Jul-06,East,110,Bissett,Human,52°09'57'',95°23'12'',Out,5
+110,2021-Jul-08,East,111,Interlake,Human,51°42'31'',98°37'25'',Out,1
+111,2021-Jul-08,East,112,Bissett,Natural,50°44'28'',95°09'32'',Out,5100
+112,2021-Jul-10,East,113,Lac du Bonnet,Human,50°34'37'',96°16'16'',Out,0.1
+113,2021-Jul-10,East,114,Interlake,Human,51°15'23'',96°40'47'',Out,0.5
+114,2021-Jul-11,East,115,Bissett,Natural,51°31'52'',96°25'37'',Out,0.8
+115,2021-Jul-11,East,116,Bissett,Natural,51°51'57'',95°49'54'',Out,29600
+116,2021-Jul-11,East,117,Bissett,Natural,51°53'13'',95°49'33'',Out,20
+117,2021-Jul-11,East,118,Bissett,Natural,51°53'09'',96°00'08'',Out,150
+118,2021-Jul-12,East,119,Bissett,Natural,51°20'12'',95°10'14'',Out,1134
+119,2021-Jul-12,East,120,Bissett,Human,52°21'32'',97°01'47'',Out,0.1
+120,2021-Jul-12,East,121,Bissett,Under Investigation,51°11'48'',95°23'08'',Out,0.4
+121,2021-Jul-12,East,122,Marchand,Natural,49°00'26'',95°59'01'',Out,1.6
+122,2021-Jul-13,East,123,Bissett,Natural,51°17'27'',96°04'48'',Out,0.1
+123,2021-Jul-13,East,124,Lac du Bonnet,Natural,50°10'41'',95°38'03'',Out,1.1
+124,2021-Jul-13,East,125,Bissett,Natural,51°21'19'',95°52'11'',Out,0.6
+125,2021-Jul-13,East,126,Lac du Bonnet,Natural,50°26'02'',95°10'09'',Out,0.5
+126,2021-Jul-13,East,127,Lac du Bonnet,Natural,50°04'36'',95°32'49'',Out,1
+127,2021-Jul-13,East,128,Bissett,Natural,51°48'21'',96°11'23'',Out,2
+128,2021-Jul-13,East,129,Interlake,Natural,51°43'20'',99°10'23'',Out,6.6
+129,2021-Jul-13,East,130,Interlake,Natural,52°01'16'',98°13'26'',Out,4.3
+130,2021-Jul-14,East,131,Lac du Bonnet,Human,49°50'03'',95°20'59'',Out,1.1
+131,2021-Jul-14,East,132,Lac du Bonnet,Natural,50°21'43'',95°16'59'',Out,0.1
+132,2021-Jul-14,East,133,Bissett,Natural,51°28'11'',95°56'56'',Out,2854
+133,2021-Jul-14,East,134,Bissett,Natural,51°35'48'',96°09'01'',Out,2.5
+134,2021-Jul-14,East,135,Lac du Bonnet,Natural,50°04'16'',95°24'33'',Out,1.5
+135,2021-Jul-14,East,136,Bissett,Natural,51°33'24'',96°20'44'',Out,500
+136,2021-Jul-14,East,137,Bissett,Natural,51°33'46'',96°28'06'',Out,0.1
+137,2021-Jul-14,East,138,Bissett,Natural,51°38'42'',96°34'18'',Out,1.2
+138,2021-Jul-14,East,139,Bissett,Natural,51°05'12'',96°08'49'',Out,0.1
+139,2021-Jul-14,East,140,Bissett,Natural,52°02'55'',96°01'50'',Out,2.5
+140,2021-Jul-14,East,141,Bissett,Natural,51°56'56'',95°48'06'',Out,0.1
+141,2021-Jul-15,East,142,Lac du Bonnet,Natural,50°03'07'',95°20'52'',Out,0.5
+142,2021-Jul-15,East,143,Bissett,Natural,51°47'49'',95°28'28'',Out,0.6
+143,2021-Jul-16,East,144,Bissett,Natural,51°55'28'',96°48'41'',Out,4
+144,2021-Jul-16,East,145,Bissett,Natural,51°41'56'',96°32'40'',Out,108790
+145,2021-Jul-16,East,146,Interlake,Natural,51°18'01'',96°40'41'',Out,0.2
+146,2021-Jul-16,East,147,Lac du Bonnet,Natural,50°09'15'',95°29'21'',Out,0.5
+147,2021-Jul-16,East,148,Lac du Bonnet,Natural,49°43'16'',95°10'44'',Out,1
+148,2021-Jul-16,East,149,Interlake,Human,51°37'15'',98°38'21'',Out,175.4
+149,2021-Jul-16,East,150,Bissett,Natural,51°52'53'',96°32'56'',Out,5860
+150,2021-Jul-18,East,151,Bissett,Natural,51°54'22'',95°32'28'',Out,1045
+151,2021-Jul-18,East,152,Lac du Bonnet,Human,50°50'02'',96°18'46'',Out,0.4
+152,2021-Jul-18,East,153,Lac du Bonnet,Natural,50°03'59'',95°13'58'',Out,1034
+153,2021-Jul-19,East,154,Bissett,Natural,51°13'28'',95°59'38'',Out,0.2
+154,2021-Jul-19,East,155,Bissett,Natural,51°16'31'',95°55'44'',Out,0.4
+155,2021-Jul-19,East,156,Bissett,Natural,51°59'43'',95°37'17'',Out,0.2
+156,2021-Jul-19,East,157,Bissett,Natural,51°30'00'',95°52'60'',Out,0.1
+157,2021-Jul-19,East,158,Bissett,Natural,51°39'43'',96°38'06'',Out,1756
+158,2021-Jul-19,East,159,Bissett,Natural,51°48'27'',95°28'45'',Out,0.1
+159,2021-Jul-19,East,160,Bissett,Natural,51°47'46'',95°14'28'',Out,0.1
+160,2021-Jul-19,East,161,Bissett,Natural,51°47'46'',95°14'28'',Out,0.1
+161,2021-Jul-19,East,162,Bissett,Natural,51°48'13'',95°18'58'',Out,0.1
+162,2021-Jul-20,East,163,Bissett,Natural,51°49'07'',95°11'56'',Out,0.1
+163,2021-Jul-20,East,164,Bissett,Natural,51°49'04'',95°09'02'',Out,0.1
+164,2021-Jul-20,East,165,Bissett,Natural,51°51'08'',95°09'06'',Out,0.1
+165,2021-Jul-20,East,166,Bissett,Natural,51°44'54'',95°18'11'',Out,0.1
+166,2021-Jul-22,East,167,Bissett,Natural,51°15'09'',95°47'41'',Out,4
+167,2021-Jul-22,East,168,Bissett,Natural,52°22'04'',95°41'08'',Out,614
+168,2021-Jul-23,East,169,Bissett,Natural,51°59'16'',96°05'48'',Out,5
+169,2021-Jul-23,East,170,Bissett,Natural,51°54'29'',96°33'25'',Out,0.1
+170,2021-Jul-23,East,171,Bissett,Natural,51°51'00'',95°13'40'',Out,3570
+171,2021-Jul-23,East,172,Bissett,Natural,51°51'17'',95°12'47'',Out,0.1
+172,2021-Jul-23,East,173,Bissett,Natural,51°16'38'',95°18'43'',Out,10
+173,2021-Jul-23,East,174,Bissett,Natural,51°23'40'',95°21'19'',Out,75
+174,2021-Jul-23,East,175,Interlake,Natural,51°35'12'',96°59'32'',Out,637.4
+175,2021-Jul-23,East,176,Interlake,Human,51°43'16'',98°35'23'',Out,7.8
+176,2021-Jul-24,East,177,Bissett,Natural,52°10'46'',95°10'54'',Out,5200
+177,2021-Jul-24,East,178,Bissett,Natural,51°31'23'',95°35'28'',Out,10
+178,2021-Jul-24,East,179,Bissett,Natural,51°05'35'',95°52'38'',Out,0.1
+179,2021-Jul-25,East,180,Bissett,Natural,51°24'08'',96°24'46'',Out,0.4
+180,2021-Jul-25,East,181,Bissett,Natural,51°27'19'',95°38'26'',Out,55
+181,2021-Jul-25,East,182,Bissett,Natural,51°25'48'',95°45'54'',Out,10
+182,2021-Jul-27,East,183,Bissett,Natural,51°27'33'',96°07'48'',Out,5
+183,2021-Jul-28,East,184,Lac du Bonnet,Natural,50°25'51'',95°53'22'',Out,0.1
+184,2021-Jul-28,East,185,Interlake,Human,51°26'47'',97°19'27'',Out,2.6
+185,2021-Jul-28,East,186,Lac du Bonnet,Human,50°16'50'',95°56'20'',Out,0.1
+186,2021-Jul-28,East,187,Bissett,Natural,52°52'10'',96°59'12'',Out,0.5
+187,2021-Jul-30,East,188,Marchand,Human,49°38'05'',95°18'36'',Out,0.1
+188,2021-Jul-31,East,189,Bissett,Natural,51°09'39'',95°28'54'',Out,0.4
+189,2021-Jul-31,East,190,Interlake,Human,51°37'14'',98°36'02'',Out,2
+190,2021-Aug-01,East,191,Bissett,Natural,51°37'17'',96°37'02'',Out,0.1
+191,2021-Aug-01,East,192,Marchand,Natural,49°36'22'',95°09'46'',Out,1.5
+192,2021-Aug-02,East,193,Bissett,Natural,52°52'27'',96°59'59'',Out,2
+193,2021-Aug-02,East,194,Bissett,Natural,51°08'35'',95°20'40'',Out,0.7
+194,2021-Aug-03,East,195,Bissett,Natural,51°44'26'',95°20'49'',Out,5
+195,2021-Aug-04,East,196,Bissett,Natural,52°22'28'',96°28'38'',Out,873
+196,2021-Aug-06,East,197,Lac du Bonnet,Natural,50°27'59'',95°49'34'',Out,0.1
+197,2021-Aug-07,East,198,Interlake,Human,51°42'56'',98°35'19'',Out,5.8
+198,2021-Aug-13,East,199,Lac du Bonnet,Natural,50°02'29'',95°35'27'',Out,0.8
+199,2021-Aug-15,East,200,Bissett,Natural,52°12'07'',96°23'45'',Out,0.2
+200,2021-Aug-15,East,201,Lac du Bonnet,Natural,50°27'35'',95°18'57'',Out,0.1
+201,2021-Aug-16,East,202,Lac du Bonnet,Natural,50°30'13'',95°14'55'',Out,2.3
+202,2021-Aug-19,East,203,Lac du Bonnet,Human,49°53'01'',95°22'13'',Out,0.4
+203,2021-Aug-19,East,204,Bissett,Natural,51°19'00'',95°15'00'',Out,383
+204,2021-Sep-28,East,205,Lac du Bonnet,Human,50°38'39'',96°18'48'',Out,0.2
+205,2021-Oct-05,East,206,Lac du Bonnet,Human,50°14'40'',96°05'50'',Out,0.5
+206,2021-Oct-05,East,207,Lac du Bonnet,Human,49°44'20'',96°15'04'',Out,1115
+207,2021-Oct-08,East,208,Interlake,Human,51°58'42'',99°29'16'',Out,280
+208,2021-Jun-11,North,1,Island Lake,Natural,53°50'04'',94°40'22'',Out,0.2
+209,2021-Jun-26,North,2,Island Lake,Natural,53°44'50'',94°44'13'',Out,0.1
+210,2021-Jul-01,North,3,Island Lake,Natural,52°56'11'',95°00'33'',Out,5
+211,2021-Jul-02,North,4,Lynn Lake,Human,56°49'40'',101°03'20'',Out,53
+212,2021-Jul-03,North,5,Island Lake,Natural,53°54'39'',93°52'52'',Out,1
+213,2021-Jul-03,North,6,Island Lake,Natural,54°13'26'',94°34'01'',Out,0.1
+214,2021-Jul-03,North,7,Island Lake,Human,54°37'37'',94°16'15'',Out,1.7
+215,2021-Jul-03,North,8,Lynn Lake,Natural,56°39'47'',101°48'34'',Out,2
+216,2021-Jul-03,North,9,Island Lake,Human,53°52'19'',94°37'38'',Out,0.1
+217,2021-Jul-04,North,10,Norway House,Natural,53°50'44'',96°28'11'',Out,50
+218,2021-Jul-06,North,11,Lynn Lake,Natural,57°03'41'',101°23'01'',Out,2
+219,2021-Jul-06,North,12,Lynn Lake,Natural,56°29'23'',99°21'58'',Out,12
+220,2021-Jul-06,North,13,Lynn Lake,Natural,56°28'32'',99°15'48'',Out,0.1
+221,2021-Jul-08,North,14,Island Lake,Natural,53°47'08'',95°59'04'',Out,202
+222,2021-Jul-09,North,15,Lynn Lake,Human,55°47'08'',100°57'03'',Out,953
+223,2021-Jul-09,North,16,Lynn Lake,Natural,55°44'31'',101°19'24'',Out,1.5
+224,2021-Jul-09,North,17,Wabowden,Natural,55°27'53'',98°15'36'',Out,0.5
+225,2021-Jul-09,North,18,Thompson,Natural,55°45'08'',97°13'06'',Out,100
+226,2021-Jul-09,North,19,Wabowden,Natural,55°16'47'',98°45'28'',Out,200
+227,2021-Jul-10,North,20,Island Lake,Natural,53°04'14'',95°10'30'',Out,569
+228,2021-Jul-10,North,21,Island Lake,Natural,52°59'26'',95°01'52'',Out,20
+229,2021-Jul-10,North,22,Island Lake,Natural,53°12'07'',94°42'56'',Out,2
+230,2021-Jul-10,North,23,Island Lake,Natural,53°50'21'',94°26'05'',Out,0.1
+231,2021-Jul-10,North,24,Island Lake,Natural,54°01'16'',94°36'23'',Out,0.1
+232,2021-Jul-10,North,25,Island Lake,Natural,54°03'55'',94°21'57'',Out,0.1
+233,2021-Jul-10,North,26,Norway House,Natural,54°20'21'',98°01'52'',Out,90
+234,2021-Jul-11,North,27,Island Lake,Natural,52°58'23'',95°01'21'',Out,20
+235,2021-Jul-11,North,28,Thompson,Natural,55°30'13'',98°34'20'',Out,2
+236,2021-Jul-11,North,29,Island Lake,Natural,53°49'40'',94°25'48'',Out,0.1
+237,2021-Jul-11,North,30,Lynn Lake,Human,55°44'31'',101°19'27'',Out,7.5
+238,2021-Jul-11,North,31,Norway House,Natural,54°12'25'',97°12'25'',Out,5600
+239,2021-Jul-12,North,32,Island Lake,Natural,53°49'17'',94°31'17'',Out,0.5
+240,2021-Jul-12,North,33,Island Lake,Natural,54°02'42'',94°26'55'',Out,3042
+241,2021-Jul-12,North,34,Island Lake,Natural,54°06'41'',94°37'38'',Out,247
+242,2021-Jul-12,North,35,Island Lake,Natural,53°46'56'',94°49'53'',Out,40
+243,2021-Jul-12,North,36,Lynn Lake,Natural,55°52'58'',101°40'23'',Out,250
+244,2021-Jul-12,North,37,Lynn Lake,Natural,55°52'59'',101°33'40'',Out,6
+245,2021-Jul-12,North,38,Island Lake,Natural,53°43'05'',95°20'17'',Out,0.5
+246,2021-Jul-12,North,39,Island Lake,Natural,53°39'31'',95°23'08'',Out,2
+247,2021-Jul-12,North,40,Island Lake,Natural,53°36'56'',95°27'01'',Out,0.5
+248,2021-Jul-12,North,41,Lynn Lake,Natural,56°06'02'',100°01'28'',Out,201
+249,2021-Jul-12,North,42,Island Lake,Natural,53°54'41'',94°47'53'',Out,0.2
+250,2021-Jul-12,North,43,Island Lake,Natural,54°42'42'',94°45'25'',Out,0.1
+251,2021-Jul-12,North,44,Lynn Lake,Natural,56°16'48'',100°16'48'',Out,0.1
+252,2021-Jul-12,North,45,Gillam,Natural,56°21'20'',96°10'20'',Out,8645
+253,2021-Jul-12,North,46,Lynn Lake,Natural,57°13'23'',100°45'47'',Out,10
+254,2021-Jul-12,North,47,Lynn Lake,Natural,55°57'30'',100°09'23'',Out,97.2
+255,2021-Jul-13,North,48,Thompson,Natural,55°29'08'',97°48'08'',Out,1
+256,2021-Jul-13,North,49,Wabowden,Natural,55°11'13'',97°26'44'',Out,0.2
+257,2021-Jul-13,North,50,Wabowden,Natural,55°30'50'',96°30'23'',Out,1
+258,2021-Jul-13,North,51,Thompson,Natural,55°29'23'',95°42'43'',Out,2
+259,2021-Jul-13,North,52,Wabowden,Natural,54°39'15'',98°52'50'',Out,1.3
+260,2021-Jul-13,North,53,Wabowden,Natural,54°35'03'',98°32'41'',Out,7
+261,2021-Jul-13,North,54,Thompson,Natural,55°31'60'',99°07'60'',Out,794
+262,2021-Jul-13,North,55,Thompson,Natural,56°03'13'',98°29'38'',Out,3
+263,2021-Jul-13,North,56,Lynn Lake,Natural,56°20'25'',100°48'00'',Out,55
+264,2021-Jul-14,North,57,Thompson,Natural,55°22'07'',95°56'14'',Out,3
+265,2021-Jul-14,North,58,Thompson,Natural,55°26'12'',95°37'13'',Out,20
+266,2021-Jul-14,North,59,Thompson,Natural,55°20'43'',95°42'25'',Out,25
+267,2021-Jul-14,North,60,Gillam,Natural,55°26'06'',95°13'29'',Out,10
+268,2021-Jul-14,North,61,Gillam,Natural,55°29'12'',95°26'01'',Out,10
+269,2021-Jul-14,North,62,Gillam,Natural,55°42'47'',95°10'34'',Out,30
+270,2021-Jul-14,North,63,Gillam,Natural,56°23'34'',96°46'14'',Out,16777
+271,2021-Jul-14,North,64,Lynn Lake,Natural,55°49'29'',101°59'25'',Out,8
+272,2021-Jul-14,North,65,Gillam,Natural,55°50'24'',94°49'32'',Out,50.7
+273,2021-Jul-15,North,66,Norway House,Natural,54°14'17'',97°16'50'',Out,1
+274,2021-Jul-15,North,67,Lynn Lake,Human,55°44'13'',101°19'55'',Out,3
+275,2021-Jul-15,North,68,Wabowden,Natural,54°39'16'',98°52'51'',Out,45
+276,2021-Jul-16,North,69,Lynn Lake,Natural,56°10'00'',101°16'37'',Out,1
+277,2021-Jul-16,North,70,Lynn Lake,Natural,56°10'04'',100°01'54'',Out,101
+278,2021-Jul-16,North,71,Lynn Lake,Natural,56°13'08'',99°52'39'',Out,304
+279,2021-Jul-16,North,72,Lynn Lake,Natural,56°03'37'',101°53'07'',Out,2
+280,2021-Jul-16,North,73,Lynn Lake,Natural,56°02'25'',101°35'15'',Out,1000
+281,2021-Jul-16,North,74,Norway House,Natural,54°03'44'',98°19'04'',Out,2600
+282,2021-Jul-17,North,75,Lynn Lake,Natural,57°34'29'',101°04'08'',Out,19.5
+283,2021-Jul-17,North,76,Thompson,Natural,56°28'40'',97°16'05'',Out,4
+284,2021-Jul-17,North,77,Lynn Lake,Natural,56°55'52'',101°41'25'',Out,667
+285,2021-Jul-17,North,78,Thompson,Natural,56°24'52'',98°02'15'',Out,50
+286,2021-Jul-17,North,79,Thompson,Natural,56°25'41'',98°04'04'',Out,10958
+287,2021-Jul-17,North,80,Wabowden,Natural,54°40'48'',98°55'47'',Out,0.2
+288,2021-Jul-17,North,81,Island Lake,Natural,53°46'35'',94°09'46'',Out,0.2
+289,2021-Jul-17,North,82,Thompson,Natural,56°00'47'',97°10'50'',Out,0.5
+290,2021-Jul-17,North,83,Gillam,Natural,57°43'03'',94°33'40'',Out,14033
+291,2021-Jul-19,North,84,Lynn Lake,Human,57°12'59'',101°37'01'',Out,1053
+292,2021-Jul-20,North,85,Wabowden,Natural,54°35'19'',98°42'50'',Out,0.1
+293,2021-Jul-20,North,86,Wabowden,Natural,54°57'05'',97°38'03'',Out,6833
+294,2021-Jul-20,North,87,Wabowden,Natural,55°12'14'',97°46'05'',Out,1
+295,2021-Jul-20,North,88,Island Lake,Natural,54°59'18'',95°31'50'',Out,507.2
+296,2021-Jul-24,North,89,Island Lake,Natural,53°47'14'',95°02'06'',Out,0.2
+297,2021-Jul-24,North,90,Island Lake,Human,52°58'03'',95°30'23'',Out,4
+298,2021-Jul-24,North,91,Island Lake,Natural,52°58'38'',95°36'43'',Out,10
+299,2021-Jul-24,North,92,Island Lake,Natural,52°58'45'',94°59'46'',Out,15
+300,2021-Jul-24,North,93,Island Lake,Human,53°53'18'',94°42'06'',Out,0.1
+301,2021-Jul-24,North,94,Norway House,Natural,53°23'03'',97°23'01'',Out,100
+302,2021-Jul-24,North,95,Island Lake,Natural,55°02'44'',95°36'54'',Out,4
+303,2021-Jul-26,North,96,Norway House,Natural,53°54'05'',97°59'09'',Out,0.2
+304,2021-Jul-26,North,97,Gillam,Natural,55°54'25'',95°51'51'',Out,8
+305,2021-Jul-26,North,98,Island Lake,Natural,53°46'37'',94°09'27'',Out,0.1
+306,2021-Jul-26,North,99,Island Lake,Natural,54°57'13'',93°47'55'',Out,60
+307,2021-Jul-26,North,100,Island Lake,Natural,54°45'36'',95°46'18'',Out,0.1
+308,2021-Jul-26,North,101,Lynn Lake,Natural,57°34'49'',101°19'03'',Out,300
+309,2021-Jul-26,North,102,Lynn Lake,Natural,57°23'38'',101°23'42'',Out,3163
+310,2021-Jul-27,North,103,Island Lake,Natural,53°32'39'',95°31'32'',Out,3
+311,2021-Jul-27,North,104,Lynn Lake,Natural,56°54'09'',101°08'45'',Out,2
+312,2021-Jul-27,North,105,Gillam,Natural,56°25'51'',94°49'30'',Out,1
+313,2021-Jul-28,North,106,Lynn Lake,Natural,58°03'32'',98°37'32'',Out,37000
+314,2021-Jul-28,North,107,Lynn Lake,Natural,57°48'44'',99°23'10'',Out,0.5
+315,2021-Jul-28,North,108,Gillam,Natural,56°58'00'',93°55'15'',Out,458.5
+316,2021-Jul-28,North,109,Gillam,Natural,57°43'22'',94°00'23'',Out,268.5
+317,2021-Jul-28,North,110,Gillam,Natural,58°16'56'',96°37'19'',Out,11200
+318,2021-Jul-28,North,111,Island Lake,Natural,53°39'59'',95°21'29'',Out,60
+319,2021-Jul-28,North,112,Gillam,Natural,55°49'08'',95°10'28'',Out,906
+320,2021-Jul-28,North,113,Norway House,Natural,53°45'54'',97°28'11'',Out,1
+321,2021-Jul-28,North,114,Lynn Lake,Natural,56°47'50'',100°06'32'',Out,0.3
+322,2021-Jul-29,North,115,Island Lake,Natural,54°54'35'',96°04'13'',Out,20
+323,2021-Jul-29,North,116,Lynn Lake,Natural,57°02'56'',100°58'07'',Out,3
+324,2021-Jul-29,North,117,Thompson,Natural,55°27'01'',95°46'35'',Out,8
+325,2021-Jul-30,North,118,Wabowden,Natural,54°14'33'',98°22'28'',Out,0.1
+326,2021-Jul-30,North,119,Wabowden,Natural,55°17'06'',98°30'31'',Out,0.1
+327,2021-Jul-31,North,120,Gillam,Natural,57°42'35'',94°32'50'',Out,65
+328,2021-Jul-31,North,121,Gillam,Natural,57°25'50'',95°02'57'',Out,7668
+329,2021-Aug-01,North,122,Island Lake,Natural,53°43'41'',94°48'22'',Out,0.1
+330,2021-Aug-01,North,123,Thompson,Natural,55°22'50'',97°07'32'',Out,1
+331,2021-Aug-01,North,124,Gillam,Natural,56°54'43'',96°19'59'',Out,8155
+332,2021-Aug-01,North,125,Gillam,Natural,57°10'52'',96°22'32'',Out,23145
+333,2021-Aug-01,North,126,Gillam,Natural,57°16'40'',96°52'23'',Out,3503
+334,2021-Aug-01,North,127,Lynn Lake,Natural,57°04'20'',97°43'18'',Out,30
+335,2021-Aug-01,North,128,Gillam,Natural,56°27'50'',94°15'20'',Out,90
+336,2021-Aug-01,North,129,Lynn Lake,Natural,56°43'06'',100°22'36'',Out,10704.8
+337,2021-Aug-01,North,130,Lynn Lake,Natural,56°41'02'',100°17'22'',Out,3
+338,2021-Aug-01,North,131,Lynn Lake,Natural,56°40'01'',100°14'47'',Out,0.1
+339,2021-Aug-02,North,132,Lynn Lake,Natural,56°49'50'',101°27'15'',Out,1660
+340,2021-Aug-02,North,133,Lynn Lake,Natural,56°43'13'',101°40'16'',Out,0
+341,2021-Aug-02,North,134,Lynn Lake,Natural,56°27'34'',100°28'15'',Out,984.9
+342,2021-Aug-02,North,135,Lynn Lake,Natural,56°25'47'',99°41'15'',Out,5208
+343,2021-Aug-02,North,136,Lynn Lake,Natural,56°24'37'',99°40'60'',Out,5
+344,2021-Aug-02,North,137,Lynn Lake,Natural,56°57'10'',99°44'20'',Out,15
+345,2021-Aug-02,North,138,Lynn Lake,Under Investigation,56°48'22'',100°33'18'',Out,3
+346,2021-Aug-02,North,139,Thompson,Natural,55°48'14'',98°58'10'',Out,10
+347,2021-Aug-03,North,140,Lynn Lake,Natural,57°02'19'',101°24'26'',Out,11.6
+348,2021-Aug-03,North,141,Thompson,Natural,55°58'47'',98°37'06'',Out,100
+349,2021-Aug-03,North,142,Island Lake,Natural,53°49'52'',94°35'05'',Out,0.1
+350,2021-Aug-04,North,143,Lynn Lake,Natural,56°24'55'',101°29'40'',Out,6.6
+351,2021-Aug-04,North,144,Lynn Lake,Natural,56°09'35'',101°46'45'',Out,6.6
+352,2021-Aug-05,North,145,Island Lake,Natural,54°04'08'',94°17'54'',Out,2.5
+353,2021-Aug-07,North,146,Thompson,Natural,56°12'42'',99°41'48'',Out,20
+354,2021-Aug-08,North,147,Lynn Lake,Natural,56°47'59'',100°34'56'',Out,0
+355,2021-Aug-18,North,148,Norway House,Natural,54°13'31'',98°01'34'',Out,0.1
+356,2021-Aug-29,North,149,Thompson,Natural,56°02'12'',97°30'02'',Out,0.5
+357,2021-Aug-31,North,150,Lynn Lake,Natural,56°09'47'',101°16'30'',Out,2.2
+358,2021-Aug-31,North,151,Lynn Lake,Natural,56°09'47'',101°16'22'',Out,8
+359,2021-Aug-31,North,152,Lynn Lake,Natural,57°40'34'',100°01'59'',Out,800
+360,2021-Oct-06,North,153,Gillam,Natural,56°19'59'',96°01'49'',Out,2.6
+361,2021-Apr-03,West,1,Swan River,Human,49°52'52'',99°33'00'',Out,226
+362,2021-May-01,West,2,The Pas,Human,53°50'13'',100°50'37'',Out,0.3
+363,2021-May-11,West,3,Swan River,Human,52°45'12'',100°43'18'',Out,600
+364,2021-May-11,West,4,Swan River,Human,52°45'00'',100°42'00'',Out,42
+365,2021-May-12,West,5,Swan River,Human,51°45'05'',100°12'22'',Out,10720
+366,2021-May-13,West,6,Swan River,Human,52°13'26'',100°10'02'',Out,4650
+367,2021-May-17,West,7,Swan River,Under Investigation,49°42'18'',99°29'09'',Out,5964
+368,2021-May-17,West,8,Grand Rapids,Human,53°05'55'',99°49'12'',Out,0.5
+369,2021-May-17,West,9,Grand Rapids,Human,53°05'59'',99°49'16'',Out,0.2
+370,2021-May-18,West,10,Swan River,Human,51°33'38'',100°22'21'',Out,7936
+371,2021-May-18,West,11,Swan River,Under Investigation,51°58'48'',100°36'03'',Out,7500
+372,2021-May-18,West,12,Grand Rapids,Human,53°10'57'',99°14'58'',Out,7
+373,2021-May-18,West,13,Swan River,Under Investigation,52°36'00'',100°56'02'',Out,1424.1
+374,2021-May-18,West,14,Swan River,Under Investigation,52°52'60'',101°26'51'',Out,29
+375,2021-May-29,West,15,Swan River,Human,52°47'16'',101°02'48'',Out,3.3
+376,2021-Jun-07,West,16,Swan River,Natural,52°43'39'',101°32'36'',Out,0.1
+377,2021-Jun-28,West,17,Grand Rapids,Natural,53°30'33'',99°43'31'',Out,135
+378,2021-Jun-28,West,18,The Pas,Natural,53°36'55'',100°07'52'',Out,0.3
+379,2021-Jul-03,West,19,Cranberry,Natural,54°58'19'',101°27'55'',Out,0.4
+380,2021-Jul-04,West,20,Grand Rapids,Natural,53°26'57'',99°36'33'',Out,0.1
+381,2021-Jul-04,West,21,Cranberry,Natural,55°02'05'',101°19'36'',Out,0.1
+382,2021-Jul-04,West,22,Swan River,Natural,52°06'57'',100°32'32'',Out,2624
+383,2021-Jul-07,West,23,Swan River,Natural,52°37'39'',101°30'03'',Out,0.3
+384,2021-Jul-08,West,24,The Pas,Natural,53°54'02'',99°55'01'',Out,1284
+385,2021-Jul-09,West,25,The Pas,Natural,53°47'28'',100°44'28'',Out,1
+386,2021-Jul-09,West,26,Cranberry,Natural,54°34'16'',101°20'31'',Out,0.1
+387,2021-Jul-09,West,27,Cranberry,Natural,54°36'29'',101°18'43'',Out,0.2
+388,2021-Jul-09,West,28,Cranberry,Natural,54°36'07'',101°10'05'',Out,1.5
+389,2021-Jul-09,West,29,Cranberry,Natural,54°24'54'',100°54'25'',Out,3086
+390,2021-Jul-10,West,30,Wekusko,Natural,54°43'00'',100°01'16'',Out,1.5
+391,2021-Jul-11,West,31,Cranberry,Natural,54°28'19'',101°13'02'',Out,1
+392,2021-Jul-11,West,32,Cranberry,Natural,55°10'39'',100°11'23'',Out,64107
+393,2021-Jul-11,West,33,Cranberry,Natural,55°15'34'',100°06'11'',Out,1397
+394,2021-Jul-11,West,34,Wekusko,Natural,55°07'38'',100°08'50'',Out,210
+395,2021-Jul-11,West,35,The Pas,Natural,54°26'57'',100°03'47'',Out,15
+396,2021-Jul-11,West,36,Wekusko,Natural,54°41'46'',99°38'25'',Out,539
+397,2021-Jul-11,West,37,Wekusko,Natural,54°44'22'',99°36'09'',Out,714
+398,2021-Jul-11,West,38,Cranberry,Natural,55°06'48'',101°44'37'',Out,12071
+399,2021-Jul-11,West,39,Wekusko,Natural,55°01'32'',99°07'45'',Out,5
+400,2021-Jul-11,West,40,Wekusko,Natural,54°56'28'',99°03'54'',Out,2
+401,2021-Jul-11,West,41,Wekusko,Natural,54°48'49'',99°17'52'',Out,13.8
+402,2021-Jul-11,West,42,Wekusko,Natural,54°26'16'',100°03'17'',Out,746.5
+403,2021-Jul-11,West,43,Wekusko,Natural,54°48'25'',99°18'38'',Out,5
+404,2021-Jul-11,West,44,Wekusko,Natural,54°56'04'',99°03'56'',Out,1
+405,2021-Jul-11,West,45,Wekusko,Natural,55°01'18'',99°07'42'',Out,56.1
+406,2021-Jul-12,West,46,Cranberry,Natural,55°36'39'',101°43'25'',Out,712
+407,2021-Jul-12,West,47,Wekusko,Natural,55°02'49'',99°34'32'',Out,5349
+408,2021-Jul-12,West,48,Cranberry,Natural,55°43'25'',100°10'02'',Out,600
+409,2021-Jul-13,West,49,Cranberry,Natural,55°47'59'',100°14'11'',Out,22306
+410,2021-Jul-11,West,50,Wekusko,Natural,54°27'13'',100°02'47'',Out,10
+411,2021-Jul-13,West,51,Cranberry,Natural,54°34'28'',100°58'40'',Out,1.5
+412,2021-Jul-13,West,52,Wekusko,Natural,55°11'39'',99°33'11'',Out,5.4
+413,2021-Jul-13,West,53,Cranberry,Natural,55°33'11'',101°57'26'',Out,578.3
+414,2021-Jul-13,West,54,Cranberry,Natural,55°18'46'',100°10'32'',Out,4876
+415,2021-Jul-13,West,55,Cranberry,Natural,55°18'46'',100°10'35'',Out,600
+416,2021-Jul-14,West,56,Wekusko,Natural,55°29'41'',99°55'32'',Out,488.5
+417,2021-Jul-14,West,57,The Pas,Natural,54°15'04'',101°22'41'',Out,1
+418,2021-Jul-15,West,58,Grand Rapids,Natural,53°02'24'',99°51'22'',Out,541.2
+419,2021-Jul-15,West,59,Wekusko,Natural,55°00'46'',99°07'20'',Out,5
+420,2021-Jul-15,West,60,The Pas,Natural,53°29'09'',101°22'38'',Out,1
+421,2021-Jul-15,West,61,Cranberry,Natural,54°39'07'',101°34'44'',Out,25.1
+422,2021-Jul-16,West,62,Cranberry,Natural,55°05'54'',101°08'52'',Out,247
+423,2021-Jul-16,West,63,Swan River,Natural,52°18'01'',100°26'05'',Out,3
+424,2021-Jul-16,West,64,Cranberry,Natural,55°37'34'',100°57'40'',Out,53815
+425,2021-Jul-20,West,65,Cranberry,Natural,55°15'42'',101°24'46'',Out,0.2
+426,2021-Jul-20,West,66,Cranberry,Natural,55°12'35'',101°04'60'',Out,1
+427,2021-Jul-20,West,67,Cranberry,Natural,55°26'34'',101°05'09'',Out,0.1
+428,2021-Jul-23,West,68,Grand Rapids,Natural,53°50'54'',99°01'33'',Out,2
+429,2021-Jul-23,West,69,Cranberry,Natural,55°17'05'',100°24'40'',Out,746
+430,2021-Jul-23,West,70,Cranberry,Natural,54°23'53'',101°22'48'',Out,3
+431,2021-Jul-23,West,71,Cranberry,Natural,55°17'47'',100°25'15'',Out,0.1
+432,2021-Jul-23,West,72,Cranberry,Natural,55°09'38'',100°51'57'',Out,0.1
+433,2021-Jul-23,West,73,Cranberry,Human,54°38'34'',101°35'26'',Out,0.2
+434,2021-Jul-24,West,74,Swan River,Natural,52°44'51'',100°40'47'',Out,3
+435,2021-Jul-26,West,75,Cranberry,Natural,55°25'59'',101°33'34'',Out,2
+436,2021-Jul-26,West,76,The Pas,Human,54°07'34'',101°26'04'',Out,0.1
+437,2021-Jul-26,West,77,Grand Rapids,Natural,52°44'26'',99°19'25'',Out,3
+438,2021-Jul-26,West,78,Grand Rapids,Natural,52°47'25'',99°20'47'',Out,9556.8
+439,2021-Jul-26,West,79,The Pas,Natural,53°57'35'',101°03'11'',Out,0.3
+440,2021-Jul-28,West,80,The Pas,Natural,53°28'59'',101°22'51'',Out,499.2
+441,2021-Jul-29,West,81,Wekusko,Natural,54°58'23'',99°23'39'',Out,2
+442,2021-Jul-30,West,82,Cranberry,Natural,54°36'19'',101°09'42'',Out,1
+443,2021-Jul-30,West,83,Cranberry,Natural,55°14'47'',100°51'51'',Out,2162
+444,2021-Jul-30,West,84,Cranberry,Natural,54°36'22'',101°18'32'',Out,1
+445,2021-Jul-31,West,85,Grand Rapids,Natural,53°34'25'',99°04'41'',Out,105.7
+446,2021-Aug-09,West,86,Cranberry,Natural,54°36'21'',101°27'39'',Out,0.1
+447,2021-Aug-13,West,87,Swan River,Natural,51°41'19'',100°52'27'',Out,147
+448,2021-Aug-19,West,88,The Pas,Natural,54°05'16'',101°33'20'',Out,0.3
+449,2021-Aug-25,West,89,Cranberry,Natural,55°31'57'',100°07'03'',Out,2
+450,2021-Sep-12,West,90,Cranberry,Natural,55°19'18'',101°01'49'',Out,0.5
+451,2021-Sep-28,West,91,Cranberry,Natural,54°37'13'',101°14'12'',Out,0.5
+452,2021-Oct-01,West,92,Swan River,Natural,51°44'52'',101°08'54'',Out,7.5
+453,2021-Oct-01,West,93,Cranberry,Human,55°01'48'',100°32'41'',Out,417
+454,2021-Oct-04,West,94,Cranberry,Natural,55°19'19'',101°01'21'',Out,0.5
+455,2021-Oct-04,West,95,Cranberry,Natural,54°49'25'',101°46'47'',Out,18.5
+456,2021-Oct-04,West,96,Swan River,Human,52°45'58'',100°39'54'',Out,170
+457,2021-Oct-05,West,97,Grand Rapids,Human,53°11'05'',99°14'48'',Out,0.1
+458,2021-Oct-05,West,98,Cranberry,Human,55°16'51'',101°48'41'',Out,1
+459,2021-Oct-14,West,99,The Pas,Human,54°13'58'',100°37'43'',Out,0.1
