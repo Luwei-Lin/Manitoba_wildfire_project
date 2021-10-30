@@ -225,23 +225,21 @@ def convertVersion3(URL, year, date):
     dataFrame.to_csv(path_or_buf=filePath)
 
 def burnedAreaCSV():
-    years = [2017,2018, 2019, 2020]
+    years = [2017, 2018, 2019, 2020, 2021]
     for year in years:
         yyyy = str(year)
         dates = listDate(year)
-        
-        for date in dates:
-            URL = "https://www.gov.mb.ca/conservation_fire/Fire-Status/" + yyyy + '/' + date + "-firestatus.html"
-            try:
-                convertVersion3(URL, year, date)
-            except:
-                continue
-        """
-        else:
+        if year != 2021:
+            for date in dates:
+                URL = "https://www.gov.mb.ca/conservation_fire/Fire-Status/" + yyyy + '/' + date + "-firestatus.html"
+                try:
+                    convertVersion3(URL, year, date)
+                except:
+                    continue
+        else:#2021
             URL = "https://www.gov.mb.ca/conservation_fire/Fire-Status/2021/20211027-firestatus.html"
-            convertVersion3(URL, year, d)
-        """
-
+            convertVersion3(URL, 2021, "20211027")
+        
 def main():
     #meteorologicalCSV()     
     burnedAreaCSV()
