@@ -26,14 +26,97 @@ def averageMeteorologicalDataByDate(dataFrame):
     Function: Analyse and calculate data by mean() or sum() in the same date.
     Output: (dataFrame dict.) summary
     '''
-    d = dataFrame[["DATE", "TEMP", "RH", "WS", "FFMC", "DMC", "DC", "ISI", "BUI", "FWI", "DSR", "RAIN"]]
-    summary = d.groupby(by = "DATE")[:-1].mean()
-    summary_sum = d.gouupby(by = "DATE")[-1].sum()
-    summary.merge(summary_sum)
+    head_list = ["DATE", "TEMP", "RH", "WS", "FFMC", "DMC", "DC", "ISI", "BUI", "FWI", "DSR", "RAIN"]
+    d = dataFrame[head_list]
+    summary_mean = d.groupby(by = "DATE")[head_list[1:12]].mean()
+    summary_sum = d.groupby(by = "DATE")[head_list[11]].sum()
+    summary = summary_mean.merge(summary_sum, how = "left", on = "DATE")
     return summary
 
+def summaryWeather(year):
+    '''
+    Input: year(int)
+    Function: Integrate all raw_data_documents into yearly summary
+    Output: n/a
+    '''
+    fileFolderPath = "raw_data_sets/" + str(year)
+    dfMeteo = load(fileFolderPath)
+    summary = averageMeteorologicalDataByDate(dfMeteo)
+    outputFilePath = "data_sets/weather/summary_weather_" + str(year) + ".csv"
+    summary.to_csv(path_or_buf = outputFilePath)
+
+def stringfyDate(date):
+    '''
+    Input: date(string) like 2021-Mar-01
+    Function: convert date format to numberic string
+    Output: conveted DATE like "20210301"
+    '''
+    elements = date.split('-')
+    assert(len(elements) >= 3), Exception()
+        
+    months = {"Jan":"01", "Feb":"02", "Mar":"03", "Apr":"04", "May":"05",\
+        "Jun": "06", "Jul": "07", "Aug": "08", "Sep": "09", "Oct":"10", \
+        "Nov": "11", "Dec": "12"}
+    yyyy = elements[0]
+    mm = months.get(elements[1])
+    dd = elements[2]
+    newDate = yyyy + mm + dd
+    return newDate
+
+def burnedAreaTotalByDate2021(dataFrame):
+    '''
+    Function: strip and reshape 2021 raw_data_burned area into yearly summary(2 columns),
+    Also, we change Reported format like from "2021-Mar-22" to "20210322"
+    '''
+    head_list = ["REPORTED", "HECTARES (estimated)"]
+    df = dataFrame[head_list]
+    
+    d = {"DATE":[]}
+    for date in df["REPORTED"]:
+        d.get("DATE").append(stringfyDate(date))
+    #newDf = pd.DataFrame(data = d)
+    
+    df.insert(0, "DATE", d.get("DATE"), True) 
+    print(df)
+    outputdf = df[["DATE", "HECTARES (estimated)"]]
+    print(outputdf)
+    return outputdf
+
+def burnedAreaTotalByDateBefore2021(dataFrame):
+    '''
+    Function: Strip years before 2021 and integrate into yearly summary (2 columns)
+    '''
+    head_list = ["REPORTED", "HECTARES (estimated)"]
+
+
+def summaryBurnedArea(year):
+    '''
+    Function: script 
+    '''
+    if year == 2021:
+        filePath = "raw_data_burned_area/2021/2021_burned_area.csv"
+        df_raw = pd.read_csv(filePath)
+        df = burnedAreaTotalByDate2021(df_raw)
+        df.to_csv("data_sets/burned_area/summary_burned_area_2021.csv")
+    else:
+        fileFolderPath = "raw_data_burned_area/" + str(year)
+        dfArea = load(fileFolderPath) # recursicely load all files in that path
+        summary = burnedAreaTotalByDateBefore2021(dfArea) # df after re-integration
+        outputFilePath = "data_sets/burned_area/summary_burned_area_" + str(year) + ".csv"
+        summary.to_csv(path_or_buf = outputFilePath)
+
 def main():
-    df = load("raw_data_sets/2021")
-    summary = averageMeteorologicalDataByDate(df)
-    summary.to_csv(path_or_buf = "data_sets/weather/summary_2021.csv")
-main()
+    years = [2017, 2018, 2019, 2020, 2021]
+    for year in years:
+        summaryWeather(year)
+        summaryBurnedArea(year)
+        #mergeWeather(year)
+
+
+
+def test():
+    summaryBurnedArea(2021)
+
+test()
+
+#main()
