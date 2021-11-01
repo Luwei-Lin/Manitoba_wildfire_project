@@ -19,6 +19,19 @@ def load(path):
         return df
     except OSError as fileError:
         print("File path is invalid.")
+def loadBurnedArea(path):
+    '''
+    function: concatenation all burned_area files in this directory to one df
+    '''
+    dfs = []
+    try:
+        for file in os.listdir(path):
+            data = pd.read_csv(os.path.join(path, file))
+            dfs.append(data)
+        df = pd.concat(dfs)
+        return df
+    except Exception as fileError:
+        print(fileError)
 
 def averageMeteorologicalDataByDate(dataFrame):
     '''
@@ -59,7 +72,7 @@ def stringfyDate(date):
         "Nov": "11", "Dec": "12"}
     yyyy = elements[0]
     mm = months.get(elements[1])
-    dd = elements[2]
+    dd = elements[2].rjust(2,'0')
     newDate = yyyy + mm + dd
     return newDate
 
@@ -82,20 +95,56 @@ def burnedAreaTotalByDate2021(dataFrame):
 
     summary = outputdf.groupby(by = "DATE").sum()
     return summary
-
-def burnedAreaTotalByDateBefore2021(dataFrame):
+def makeItFloat(data):
     '''
+    input: data (float or string)
+    function: check it is string or float
+    output: float
+    '''
+    num = 0.0
+    if isinstance(data, float):
+        return data
+    else:
+        numList = data.split(",")
+        numString = ''
+        for n in numList:
+            element = n.strip()
+            numString += element
+        if numString != '':
+            num = float(numString)
+    return num
+
+
+def burnedAreaTotalByDateBefore2021(dataFrame, year):
+    '''
+    input: year (int), DataFrame
     Function: Strip years before 2021 and integrate into yearly summary (2 columns)
     '''
-    head_list = ["REPORTED", "HECTARES"]
-    df1 = dataFrame[head_list].drop_duplicates()
-    d = {"DATE":[]}
+    if year == 2020: #2020 is speacial
+        head_list = ["REPORTED", "HECTARES (estimated)"]
+    else:
+        head_list = ["REPORTED", "HECTARES "]
 
+    df1 = dataFrame[head_list].drop_duplicates()
+    #df1 = df1.rename(columns={"HECTARES ":"HECTARES"}, errors="raise")
+    
+    d = {"DATE":[]}
+    d2= {"HECTARES":[]}
     for date in df1["REPORTED"]:
         d.get("DATE").append(stringfyDate(date))
+    if year == 2020:
+        for data in df1["HECTARES (estimated)"]:
+            d2.get("HECTARES").append(makeItFloat(data))
+    else:
+        for data in df1["HECTARES "]:
+            d2.get("HECTARES").append(makeItFloat(data))
+    df1.insert(1, "HECTARES", d2.get("HECTARES"), True)
     df1.insert(0, "DATE", d.get("DATE"), True)
-
-    df = df1[["DATE", "HECTARES"]]
+    
+    df = df1[["DATE", "HECTARES"]].sort_values(by = "DATE")
+    #since 2017 there are some "hectares like "3,198.7" cannot sum() directly
+    
+    print(df)
     summary = df.groupby(by="DATE").sum()
     print(summary)
     return summary
@@ -111,8 +160,8 @@ def summaryBurnedArea(year):
         df.to_csv("data_sets/burned_area/summary_burned_area_2021.csv")
     else:
         fileFolderPath = "raw_data_burned_area/" + str(year)
-        dfArea = load(fileFolderPath) # recursicely load all files in that path
-        summary = burnedAreaTotalByDateBefore2021(dfArea) # df after re-integration
+        dfArea = loadBurnedArea(fileFolderPath) # recursicely load all files in that path
+        summary = burnedAreaTotalByDateBefore2021(dfArea, year) # df after re-integration
         outputFilePath = "data_sets/burned_area/summary_burned_area_" + str(year) + ".csv"
         summary.to_csv(path_or_buf = outputFilePath)
 
@@ -135,8 +184,8 @@ def main():
 
 
 def test():
-    summaryBurnedArea(2021)
-    mergeWeatherBurnedArea()
+    summaryBurnedArea(2020)
+    #mergeWeatherBurnedArea()
 test()
 
 #main()
