@@ -21,7 +21,7 @@ def load(path):
         print("File path is invalid.")
 def loadBurnedArea(path):
     '''
-    function: concatenation all burned_area files in this directory to one df
+    function: concatenation all raw_burned_area files in this directory to one df
     '''
     dfs = []
     try:
@@ -36,13 +36,16 @@ def loadBurnedArea(path):
 def averageMeteorologicalDataByDate(dataFrame):
     '''
     Input: dataFrame(dictionary)
-    Function: Analyse and calculate data by mean() or sum() in the same date.
+    Function: Analyse and calculate data by mean() or sum() and "groupby" in the same date.
     Output: (dataFrame dict.) summary
     '''
     head_list = ["DATE", "TEMP", "RH", "WS", "FFMC", "DMC", "DC", "ISI", "BUI", "FWI", "DSR", "RAIN"]
-    d = dataFrame[head_list]
-    summary_mean = d.groupby(by = "DATE")[head_list[1:12]].mean()
-    summary_sum = d.groupby(by = "DATE")[head_list[11]].sum()
+
+    d = dataFrame[head_list].sort_values(by='DATE') #exclude the "STATION"
+    print(d)
+    summary_mean = d.groupby(by = ["DATE"])[head_list[1:12]].mean()
+    print(summary_mean)
+    summary_sum = d.groupby(by = ["DATE"])[head_list[11]].sum()
     summary = summary_mean.merge(summary_sum, how = "left", on = "DATE")
     return summary
 
@@ -95,6 +98,7 @@ def burnedAreaTotalByDate2021(dataFrame):
 
     summary = outputdf.groupby(by = "DATE").sum()
     return summary
+
 def makeItFloat(data):
     '''
     input: data (float or string)
@@ -114,7 +118,6 @@ def makeItFloat(data):
             num = float(numString)
     return num
 
-
 def burnedAreaTotalByDateBefore2021(dataFrame, year):
     '''
     input: year (int), DataFrame
@@ -127,10 +130,10 @@ def burnedAreaTotalByDateBefore2021(dataFrame, year):
         head_list = ["REPORTED", "HECTARES "]
 
     dataFrame = dataFrame.drop_duplicates()
-    print(dataFrame)
+    #print(dataFrame)
 
     df1 = dataFrame[head_list]
-    print(df1)
+    #print(df1)
     #df1 = df1.rename(columns={"HECTARES ":"HECTARES"}, errors="raise")
     
     d = {"DATE":[]}
@@ -169,22 +172,44 @@ def summaryBurnedArea(year):
 
 def mergeWeatherBurnedArea():
     '''
-    function: merge same year meteorogical data and burned area
+    function: 1. concat different year data summary to one 2.merge same year meteorogical data and burned area
+    '''
+    dfs1 = []
+    dfs2 = []
+    path1 = "data_sets/weather/"
+    path2 = "data_sets/burned_area/"
+    for file in os.listdir(path1):
+        data1 = pd.read_csv(os.path.join(path1, file))
+        dfs1.append(data1)
+    #df1 = pd.concat(dfs1)
+    #print(df1)
+    for file in os.listdir(path2):
+        if file.endswith(".DS_Store"):
+            continue
+        data2 = pd.read_csv(os.path.join(path2, file))
+        dfs2.append(data2)
+    df2 = pd.concat(dfs2).sort_values(by='DATE')
+    df2.to_csv("data_sets/summary_burned_area.csv")
+    
+    
+    
     '''
     data1 = pd.read_csv("data_sets/burned_area/summary_burned_area_2021.csv")
     data2 = pd.read_csv("data_sets/weather/summary_weather_2021.csv")
+
     df = data1.merge(data2, how = 'left', on = 'DATE')
     df.to_csv("data_sets/sample_for_test/2021.csv")
-
+    '''
 def main():
     years = [2017, 2018, 2019, 2020, 2021]
     for year in years:
-        #summaryWeather(year)
+        summaryWeather(year)
         summaryBurnedArea(year)
         #mergeWeather(year)
-def test():
-    summaryBurnedArea(2020)
-    #mergeWeatherBurnedArea()
-#test()
 
-main()
+def test():
+    #mergeWeatherBurnedArea()
+    summaryWeather(2017)
+test()
+
+#main()
