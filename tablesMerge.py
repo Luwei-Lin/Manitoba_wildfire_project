@@ -120,12 +120,17 @@ def burnedAreaTotalByDateBefore2021(dataFrame, year):
     input: year (int), DataFrame
     Function: Strip years before 2021 and integrate into yearly summary (2 columns)
     '''
+    head_list = []
     if year == 2020: #2020 is speacial
         head_list = ["REPORTED", "HECTARES (estimated)"]
     else:
         head_list = ["REPORTED", "HECTARES "]
 
-    df1 = dataFrame[head_list].drop_duplicates()
+    dataFrame = dataFrame.drop_duplicates()
+    print(dataFrame)
+
+    df1 = dataFrame[head_list]
+    print(df1)
     #df1 = df1.rename(columns={"HECTARES ":"HECTARES"}, errors="raise")
     
     d = {"DATE":[]}
@@ -143,10 +148,7 @@ def burnedAreaTotalByDateBefore2021(dataFrame, year):
     
     df = df1[["DATE", "HECTARES"]].sort_values(by = "DATE")
     #since 2017 there are some "hectares like "3,198.7" cannot sum() directly
-    
-    print(df)
     summary = df.groupby(by="DATE").sum()
-    print(summary)
     return summary
 
 def summaryBurnedArea(year):
@@ -177,15 +179,12 @@ def mergeWeatherBurnedArea():
 def main():
     years = [2017, 2018, 2019, 2020, 2021]
     for year in years:
-        summaryWeather(year)
+        #summaryWeather(year)
         summaryBurnedArea(year)
         #mergeWeather(year)
-
-
-
 def test():
     summaryBurnedArea(2020)
     #mergeWeatherBurnedArea()
-test()
+#test()
 
-#main()
+main()
