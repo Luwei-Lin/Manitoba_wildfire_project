@@ -192,7 +192,7 @@ def mergeWeatherBurnedArea():
     df2 = pd.concat(dfs2).sort_values(by='DATE')
     df2.to_csv("data_sets/summary_burned_area.csv")
     
-    df = df1.merge(df2, how='left', on='DATE')
+    df = (df1.merge(df2, how='left', on='DATE').fillna(0))
     df.to_csv("data_sets/summary_weather_and_burned_area.csv")
     print(df)
     
