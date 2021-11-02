@@ -236,7 +236,7 @@ def burnedAreaCSV():
                     convertVersion3(URL, year, date)
                 except:
                     continue
-        else:#2021
+        else:#2021 since the website already merge all dates infos to one table
             URL = "https://www.gov.mb.ca/conservation_fire/Fire-Status/2021/20211027-firestatus.html"
             convertVersion3(URL, 2021, "20211027")
         
