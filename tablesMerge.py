@@ -40,12 +40,13 @@ def averageMeteorologicalDataByDate(dataFrame):
     Output: (dataFrame dict.) summary
     '''
     head_list = ["DATE", "TEMP", "RH", "WS", "FFMC", "DMC", "DC", "ISI", "BUI", "FWI", "DSR", "RAIN"]
-
     d = dataFrame[head_list].sort_values(by='DATE') #exclude the "STATION"
-    print(d)
-    summary_mean = d.groupby(by = ["DATE"])[head_list[1:12]].mean()
-    print(summary_mean)
-    summary_sum = d.groupby(by = ["DATE"])[head_list[11]].sum()
+    for head in head_list:
+        if d[head].dtype != 'float64':
+            #in case: the some columns has the object instead of 'float64', so it won't excecute .mean() future
+            d[head] = pd.to_numeric(d[head], errors = 'coerce')
+    summary_mean = d.groupby(by = "DATE")[head_list[1:12]].mean()
+    summary_sum = d.groupby(by = "DATE")[head_list[11]].sum()
     summary = summary_mean.merge(summary_sum, how = "left", on = "DATE")
     return summary
 
@@ -181,8 +182,8 @@ def mergeWeatherBurnedArea():
     for file in os.listdir(path1):
         data1 = pd.read_csv(os.path.join(path1, file))
         dfs1.append(data1)
-    #df1 = pd.concat(dfs1)
-    #print(df1)
+    df1 = pd.concat(dfs1).sort_values(by='DATE')
+    df1.to_csv("data_sets/summary_weather.csv")
     for file in os.listdir(path2):
         if file.endswith(".DS_Store"):
             continue
@@ -191,7 +192,9 @@ def mergeWeatherBurnedArea():
     df2 = pd.concat(dfs2).sort_values(by='DATE')
     df2.to_csv("data_sets/summary_burned_area.csv")
     
-    
+    df = df1.merge(df2, how='left', on='DATE')
+    df.to_csv("data_sets/summary_weather_and_burned_area.csv")
+    print(df)
     
     '''
     data1 = pd.read_csv("data_sets/burned_area/summary_burned_area_2021.csv")
@@ -205,11 +208,13 @@ def main():
     for year in years:
         summaryWeather(year)
         summaryBurnedArea(year)
-        #mergeWeather(year)
+
+    mergeWeatherBurnedArea()
 
 def test():
-    #mergeWeatherBurnedArea()
-    summaryWeather(2017)
+    mergeWeatherBurnedArea()
+    #summaryBurnedArea(2020)
+
 test()
 
 #main()
