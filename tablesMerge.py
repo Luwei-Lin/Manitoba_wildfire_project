@@ -192,9 +192,21 @@ def mergeWeatherBurnedArea():
     df2 = pd.concat(dfs2).sort_values(by='DATE')
     df2.to_csv("data_sets/summary_burned_area.csv")
     
+    selected_columns = df2[["DATE", "HECTARES"]]
+    #new_df2 = selected_columns.copy().rename(columns={"HECTARES":"HECTARES(yesterday)"}, errors="raise")
+    #new_df2["HECTARES(yesterday)"] = new_df2["HECTARES(yesterday)"].shift(-1)
+    
     df = (df1.merge(df2, how='left', on='DATE').fillna(0))
+    
+    #df = (df.merge(new_df2, how='left', on='DATE').fillna(0))
+    selected_columns = df[["DATE", "HECTARES"]]
+    new_df = selected_columns.copy().rename(columns={"HECTARES":"HECTARES(yesterday)"}, errors="raise")
+    new_df["HECTARES(yesterday)"] = new_df["HECTARES(yesterday)"].shift(-1).fillna(0)
+
+    df = (df.merge(new_df, how='left', on='DATE').fillna(0))
+    
     df.to_csv("data_sets/summary_weather_and_burned_area.csv")
-    print(df)
+    
     
     '''
     data1 = pd.read_csv("data_sets/burned_area/summary_burned_area_2021.csv")
