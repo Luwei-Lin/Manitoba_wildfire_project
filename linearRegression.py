@@ -9,9 +9,21 @@ import pandas as pd
 
 
 #creating the training data
+
 dataSet = pd.read_csv('summary_weather_and_burned_area.csv')
 
-dataList = [];
+df_x = dataSet[['DATE', 'TEMP', 'RH', 'WS', 'FFMC', 'DMC', 'DC', \
+    'ISI', 'BUI', 'FWI', 'DSR', 'RAIN_x', 'HECTARES(yesterday)']]
+df_y = dataSet[['HECTARES']]
+
+x_train = df_x.sample(n = 1000)
+x_test = df_x.sample(n = 500)
+
+y_train = df_y.sample(n = 1000)
+y_test = df_y.sample(n = 500)
+
+
+dataList = []
 
 date = dataSet['DATE'].tolist()
 temp = dataSet['TEMP'].tolist()
@@ -118,9 +130,6 @@ for epoch in range(epochs):
     optimizer.step()
 
     print('epoch {}, loss {}'.format(epoch, loss.item()))
-
-
-
 
 with torch.no_grad(): # we don't need gradients in the testing phase
     if torch.cuda.is_available():
