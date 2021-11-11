@@ -38,7 +38,10 @@ outputDim = 1    # takes variable 'y'
 learningRate = 0.01
 epochs = 100
 
+
+
 x_train = np.array(x_train, dtype=np.float32).reshape(-1, inputDim)
+
 y_train = np.array(y_train, dtype=np.float32).reshape(-1, outputDim)
 
 x_test = np.array(x_test, dtype=np.float32).reshape(-1, inputDim)
