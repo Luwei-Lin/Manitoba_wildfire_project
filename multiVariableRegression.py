@@ -3,10 +3,12 @@ import matplotlib.pyplot as plt
 import torch
 import torch.optim as optim
 
-df = pd.read_csv("summary_weather_and_burned_area.csv")
+df = pd.read_csv("summary_weather_and_burned_area.csv") #dataframe
 #'Rain_y' is same as 'Rain_x' (average vs. sum)
+
 df_x = df[['TEMP', 'RH', 'WS', 'FFMC', 'DMC', 'DC', 'ISI', 'BUI', 'FWI', 'DSR', 'RAIN_x', 'HECTARES(yesterday)']]
 df_y = df[['HECTARES']]
+
 #divide dataframe
 x_train = df_x.loc[0:1000]
 y_train = df_y.loc[0:1000]
@@ -15,6 +17,12 @@ x_test = df_x.loc[1001:]
 y_test = df_y.loc[1001:]
 
 #tranfer the dataframe to class tensor
+#a1*x1+a2*x2+a3*x3...= y1
+#a1*x1
+#[a1, a2, a3]*[x11, x12, x13] = [y1, y2, y3]
+#             [x21, x22, x23]
+#             [x31, x32, x33]
+#             
 x_train = torch.tensor(x_train.values, dtype=torch.float).t()
 y_train = torch.tensor(y_train.values, dtype=torch.float).t()
 
@@ -32,7 +40,7 @@ def model(x_input):
     return A.mm(x_input) + b
 #square deviation
 def loss(y_predicted, y_target):
-    return ((y_predicted - y_target)**2).sum()
+    return ((y_predicted - y_target)**2).sum()/(y_target.shape[1])
 
 #Main optimization loop
 #scenorio1
@@ -53,7 +61,7 @@ def main():
     #Training the model
     learningRate = 0.001
     #Implenment Adam algorithm
-    for num in range(5000, 105000, 5000):
+    for num in range(5000, 50001, 5000):
         epochs = num
         trainModel(epochs, learningRate)
         #calculate y_test_predicted 

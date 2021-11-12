@@ -38,10 +38,7 @@ outputDim = 1    # takes variable 'y'
 learningRate = 0.01
 epochs = 100
 
-
-
 x_train = np.array(x_train, dtype=np.float32).reshape(-1, inputDim)
-
 y_train = np.array(y_train, dtype=np.float32).reshape(-1, outputDim)
 
 x_test = np.array(x_test, dtype=np.float32).reshape(-1, inputDim)
@@ -84,13 +81,13 @@ with torch.no_grad(): # we don't need gradients in the testing phase
     else:
         predicted = model(Variable(torch.from_numpy(x_train))).data.numpy()
     print(predicted)
-
+'''
 plt.clf()
 plt.plot(x_train, y_train, 'go', label='True data', alpha=0.5)
 plt.plot(x_train, predicted, '--', label='Predictions', alpha=0.5)
 plt.legend(loc='best')
 plt.show()
-
+'''
 
 
 
