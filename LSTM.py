@@ -10,7 +10,7 @@ input_dim = 12
 hidden_dim = 1
 n_layer = 1
 
-lstm_layer = nn.LSTM(input_dim, hidden_dim, n_layers, batch_first=True)
+lstm_layer = nn.LSTM(input_dim, hidden_dim, n_layer, batch_first=True)
 
 batch_size = 1
 seq_len = 1
