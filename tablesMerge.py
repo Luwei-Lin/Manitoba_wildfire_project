@@ -201,7 +201,7 @@ def mergeWeatherBurnedArea():
     #df = (df.merge(new_df2, how='left', on='DATE').fillna(0))
     selected_columns = df[["DATE", "HECTARES"]]
     new_df = selected_columns.copy().rename(columns={"HECTARES":"HECTARES(yesterday)"}, errors="raise")
-    new_df["HECTARES(yesterday)"] = new_df["HECTARES(yesterday)"].shift(-1).fillna(0)
+    new_df["HECTARES(yesterday)"] = new_df["HECTARES(yesterday)"].shift(1).fillna(0)
 
     df = (df.merge(new_df, how='left', on='DATE').fillna(0))
     
@@ -227,6 +227,6 @@ def test():
     mergeWeatherBurnedArea()
     #summaryBurnedArea(2020)
 
-test()
+main()
 
 #main()
