@@ -18,6 +18,7 @@ class linearRegression(torch.nn.Module):
 #creating the training dat
 dataSet = pd.read_csv('summary_weather_and_burned_area.csv')
 df_x = dataSet[['TEMP', 'RH', 'WS', 'FFMC', 'DMC', 'DC', 'ISI', 'BUI', 'FWI', 'DSR', 'RAIN_x', 'HECTARES(yesterday)']]
+
 df_y = dataSet[['HECTARES']]
 
 #2017-2020 train
@@ -81,13 +82,13 @@ with torch.no_grad(): # we don't need gradients in the testing phase
     else:
         predicted = model(Variable(torch.from_numpy(x_train))).data.numpy()
     print(predicted)
-'''
+
 plt.clf()
 plt.plot(x_train, y_train, 'go', label='True data', alpha=0.5)
 plt.plot(x_train, predicted, '--', label='Predictions', alpha=0.5)
 plt.legend(loc='best')
 plt.show()
-'''
+
 
 
 

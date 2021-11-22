@@ -7,6 +7,7 @@ df = pd.read_csv("summary_weather_and_burned_area.csv") #dataframe
 #'Rain_y' is same as 'Rain_x' (average vs. sum)
 
 df_x = df[['TEMP', 'RH', 'WS', 'FFMC', 'DMC', 'DC', 'ISI', 'BUI', 'FWI', 'DSR', 'RAIN_x', 'HECTARES(yesterday)']]
+#df_x = df[['FWI']]
 df_y = df[['HECTARES']]
 
 #divide dataframe
