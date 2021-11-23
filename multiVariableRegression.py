@@ -45,8 +45,7 @@ def loss(y_predicted, y_target):
 
 #Main optimization loop
 #scenorio1
-current_lossList = []
-test_lossList = []
+
 def trainModel(epochs, learningRate):
     optimizer = optim.Adam([A, b], lr=learningRate)
     for epoch in range(epochs):
@@ -55,7 +54,6 @@ def trainModel(epochs, learningRate):
 
         y_predicted = model(x_train)
         current_loss = loss(y_predicted, y_train)
-        current_lossList.append(current_loss.numpy())
         current_loss.backward()
         optimizer.step()
         #print(f"epoch = {epoch}, loss = {current_loss}, A = {A.detach().numpy()}, b = {b.item()}")
@@ -63,7 +61,6 @@ def trainModel(epochs, learningRate):
 def main():
     #Training the model
     learningRate = 0.01
-    
     #Implenment Adam algorithm
     for num in range(200, 5000, 200):
         epochs = num
@@ -72,8 +69,5 @@ def main():
         y_predicted = model(x_test)
         #calulate deviation and see the performance of the trained model
         test_loss = loss(y_predicted, y_test)
-        test_lossList.append(test_loss.numpy())
         print("The loss of the test set: {} of {} times training and the learning rate is {}".format(test_loss, epochs, learningRate))
-
-
 main()
