@@ -17,8 +17,10 @@ class linearRegression(torch.nn.Module):
 
 #creating the training dat
 dataSet = pd.read_csv('summary_weather_and_burned_area.csv')
-df_x = dataSet[['TEMP', 'RH', 'WS', 'FFMC', 'DMC', 'DC', 'ISI', 'BUI', 'FWI', 'DSR', 'RAIN_x', 'HECTARES(yesterday)']]
+featuresList = ['TEMP', 'RH', 'WS', 'FFMC', 'DMC', 'DC', 'ISI', 'BUI', 'FWI', 'DSR', 'RAIN_x', 'HECTARES(yesterday)']
+#df_x = dataSet[['TEMP', 'RH', 'WS', 'FFMC', 'DMC', 'DC', 'ISI', 'BUI', 'FWI', 'DSR', 'RAIN_x', 'HECTARES(yesterday)']]
 
+df_x = dataSet[['DSR', 'ISI', 'RAIN_x']]
 df_y = dataSet[['HECTARES']]
 
 #2017-2020 train
@@ -34,13 +36,15 @@ x_test = df_x.loc[1001:]
 y_test = df_y.loc[1001:]
 # Last Step. x_test put in the "model" and compare with y_test
 
-inputDim = 12        # takes variable 'x' 
+inputDim = 3        # takes variable 'x' 
 outputDim = 1    # takes variable 'y'
 learningRate = 0.01
 epochs = 100
 
-x_train = np.array(x_train, dtype=np.float32).reshape(-1, inputDim)
-y_train = np.array(y_train, dtype=np.float32).reshape(-1, outputDim)
+x_train = np.array(x_train, dtype=np.float32)#.reshape(-1, inputDim)
+y_train = np.array(y_train, dtype=np.float32)#.reshape(-1, outputDim)
+#x_train = np.transpose(x_train)
+#y_train = np.transpose(y_train)
 
 x_test = np.array(x_test, dtype=np.float32).reshape(-1, inputDim)
 y_test = np.array(y_test, dtype=np.float32).reshape(-1, outputDim)
@@ -82,12 +86,11 @@ with torch.no_grad(): # we don't need gradients in the testing phase
     else:
         predicted = model(Variable(torch.from_numpy(x_train))).data.numpy()
     print(predicted)
-
-plt.clf()
-plt.plot(x_train, y_train, 'go', label='True data', alpha=0.5)
-plt.plot(x_train, predicted, '--', label='Predictions', alpha=0.5)
-plt.legend(loc='best')
-plt.show()
+    plt.clf()
+    plt.plot(x_train, y_train, 'go', label='True data', alpha=0.5)
+    plt.plot(x_train, predicted, '--', label='Predictions', alpha=0.5)
+    plt.legend(loc='best')
+    plt.show()
 
 
 

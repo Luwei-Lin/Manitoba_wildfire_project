@@ -32,13 +32,13 @@ else:
     device = torch.device("cpu")
 
 class SentimentNet(nn.Module):
-    def __init__(self, input_size, output_size, embedding_dim, hidden_dim, n_layers, drop_prob=0.5):
+    def __init__(self, output_size, embedding_dim, hidden_dim, n_layers, drop_prob=0.5):
         super(SentimentNet, self).__init__()
         self.output_size = output_size
         self.n_layers = n_layers
         self.hidden_dim = hidden_dim
         
-        self.embedding = nn.Embedding(input_size, embedding_dim)
+        #self.embedding = nn.Embedding(input_size, embedding_dim)
         self.lstm = nn.LSTM(embedding_dim, hidden_dim, n_layers, dropout=drop_prob, batch_first=True)
         self.dropout = nn.Dropout(drop_prob)
         self.fc = nn.Linear(hidden_dim, output_size)
@@ -47,8 +47,8 @@ class SentimentNet(nn.Module):
     def forward(self, x, hidden):
         batch_size = x.size(0)
         x = x.long()
-        embeds = self.embedding(x)
-        lstm_out, hidden = self.lstm(embeds, hidden)
+        #embeds = self.embedding(x)
+        lstm_out, hidden = self.lstm(x, hidden)
         lstm_out = lstm_out.contiguous().view(-1, self.hidden_dim)
         
         out = self.dropout(lstm_out)
@@ -71,7 +71,7 @@ embedding_dim = 12
 hidden_dim = 1
 n_layers = 2
 
-model = SentimentNet(input_size, output_size, embedding_dim, hidden_dim, n_layers)
+model = SentimentNet(output_size, embedding_dim, hidden_dim, n_layers)
 model.to(device)
 
 lr=0.005
